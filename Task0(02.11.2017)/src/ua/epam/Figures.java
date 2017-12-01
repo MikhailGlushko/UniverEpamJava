@@ -69,19 +69,23 @@ public class Figures {
     /**
      * Universal method to Draw part of Triangle/Diamond from top to bottom line by line
      * @param sideLength
-     * @param countLinesFromTop - count lines from top
+     * @param countLinesFromTop - висота фігури, якщо число в інтервалы выд 0 і більше (-sideLength) - малюємо
+     *                          трикутник у якого вершина направлена вверх а протилежна сторона в низ,
+     *                          якщо число быльше 0 ы меншк sideLength - починаємо малювати трикутник направлений вершиною
+     *                          вниз, основа якого співнадає з основою попереднього трикутника
+     *                          якщо countLinesFromTop< sideLength - отримаємо трапецію
      * @param orientation "<0" - діагональ справа, вершина ліворуч, ">0" - діагональ зліва, вершина праворуч, "0" вершина по центру
      */
     private static void drawTriangle(int sideLength, int countLinesFromTop, int orientation){
         int diagonal;
-        boolean isSolidLine;
+        boolean needDrawBorder;
         int width;
 
         countLinesFromTop = countLinesFromTop>sideLength?sideLength:countLinesFromTop;
 
         for (int i=-sideLength+1; i <= countLinesFromTop; i++) {
             width = Math.abs(i);
-            isSolidLine = (i == countLinesFromTop);
+            needDrawBorder = (i == countLinesFromTop);
 
             if (orientation == 0) {
                 width = Math.abs(i);
@@ -97,7 +101,7 @@ public class Figures {
                 diagonal = sideLength - width;
             }
             drawSpaces(width);
-            drawLine(diagonal, isSolidLine);
+            drawLine(diagonal, needDrawBorder);
         }
     }
 
@@ -112,11 +116,11 @@ public class Figures {
      * @param isSolidLine true - is solid line, false - is border
      */
     private static void drawLine(int width, boolean isSolidLine) {
-        boolean needSymbol;
+        boolean needBorderSymbol;
 
         for (int i=1; i<=width; i++) {
-            needSymbol = (isSolidLine || i == 1 || i == width);
-            if(needSymbol)
+            needBorderSymbol = (isSolidLine || i == 1 || i == width);
+            if(needBorderSymbol)
                 System.out.print("* ");
             else
                 System.out.print("  ");
