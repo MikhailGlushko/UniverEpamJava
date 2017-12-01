@@ -46,8 +46,8 @@ public class OpenWeatherDataServerXMLTest {
         String line = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" +
                 "<current><city id=\"703448\" name=\"Kiev\"><coord lon=\"30.52\" lat=\"50.43\"></coord><country>UA</country><sun rise=\"2017-11-29T05:34:22\" set=\"2017-11-29T13:58:06\"></sun></city><temperature value=\"-1\" min=\"-1\" max=\"-1\" unit=\"metric\"></temperature><humidity value=\"100\" unit=\"%\"></humidity><pressure value=\"1015\" unit=\"hPa\"></pressure><wind><speed value=\"3\" name=\"Light breeze\"></speed><gusts></gusts><direction value=\"110\" code=\"ESE\" name=\"East-southeast\"></direction></wind><clouds value=\"90\" name=\"хмарно\"></clouds><visibility value=\"1900\"></visibility><precipitation mode=\"no\"></precipitation><weather number=\"600\" value=\"легкий снігопад\" icon=\"13d\"></weather><lastupdate value=\"2017-11-29T09:30:00\"></lastupdate></current>";
         InputStream inputStream = new ByteArrayInputStream(line.getBytes());
-        Weather weather = dataProvider.weatherParse(inputStream);
-        System.out.println(weather);
+       // Weather weather = dataProvider.weatherParse(inputStream);
+        //System.out.println(weather);
     }
 
     @Test(expected = NullPointerException.class)

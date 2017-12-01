@@ -69,20 +69,8 @@ public class OpenWeatherDataServerJSON extends DataServer {
     }
 
     @Override
-    protected Weather weatherParse(InputStream stream) {
-        StringBuffer buffer = new StringBuffer();
-        String line = "";
-        try (BufferedReader reader = new BufferedReader(new InputStreamReader(stream))) {
-            while ((line=reader.readLine()) !=null)
-                buffer.append(line);
-            stream.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (NullPointerException e){
-            e.printStackTrace();
-        }
-
-        line = buffer.toString();
+    protected Weather weatherParse() {
+        String line = getDataProvider().get();
         System.out.println(line);
 
         Gson gson = new GsonBuilder().create();

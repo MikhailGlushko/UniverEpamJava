@@ -5,4 +5,5 @@ import java.io.InputStream;
 public interface DataProvider {
 
     public InputStream getInputStream();
+    public String get();
 }

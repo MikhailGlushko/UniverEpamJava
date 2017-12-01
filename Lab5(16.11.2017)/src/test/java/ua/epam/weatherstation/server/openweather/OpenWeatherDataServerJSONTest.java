@@ -13,26 +13,26 @@ import ua.epam.weatherstation.station.WeatherStation;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
-import java.net.MalformedURLException;
-import java.net.URL;
 
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 public class OpenWeatherDataServerJSONTest {
-    private OpenWeatherDataServerJSON dataProvider;
+    private OpenWeatherDataServerJSON dataServer;
 
     @Before
     public void init(){
-        dataProvider = new OpenWeatherDataServerJSON();
+        dataServer = new OpenWeatherDataServerJSON();
     }
 
     @Test
     public void weatherParse() throws Exception {
         String line = "{\"coord\":{\"lon\":30.52,\"lat\":50.43},\"weather\":[{\"id\":701,\"main\":\"Mist\",\"description\":\"туман\",\"icon\":\"50n\"}],\"base\":\"stations\",\"main\":{\"temp\":0,\"pressure\":1015,\"humidity\":100,\"temp_min\":0,\"temp_max\":0},\"visibility\":1400,\"wind\":{\"speed\":4,\"deg\":140},\"clouds\":{\"all\":90},\"dt\":1511973180,\"sys\":{\"type\":1,\"id\":7358,\"message\":0.0025,\"country\":\"UA\",\"sunrise\":1511933684,\"sunset\":1511963876},\"id\":703448,\"name\":\"Kiev\",\"cod\":200}";
-        InputStream inputStream = new ByteArrayInputStream(line.getBytes());
-        Weather weather = dataProvider.weatherParse(inputStream);
+        DataProvider dataProvider = mock(DataProviderImpl.class);
+        when(dataProvider.get()).thenReturn(line);
+        dataServer.setDataProvider(dataProvider);
+        Weather weather = dataServer.weatherParse();
         System.out.println(weather);
     }
 
@@ -79,12 +79,13 @@ public class OpenWeatherDataServerJSONTest {
                 "&units="+ dataServer.UNITS+
                 "&lang="+ dataServer.LANG;
 
-        //DataProvider dataProvider = new DataProviderImpl(WEATHER_BASE_URL);
+        //DataProvider dataServer = new DataProviderImpl(WEATHER_BASE_URL);
         DataProvider dataProvider = mock(DataProviderImpl.class);
 
         String line = "{\"coord\":{\"lon\":30.52,\"lat\":50.43},\"weather\":[{\"id\":701,\"main\":\"Mist\",\"description\":\"туман\",\"icon\":\"50n\"}],\"base\":\"stations\",\"main\":{\"temp\":0,\"pressure\":1015,\"humidity\":100,\"temp_min\":0,\"temp_max\":0},\"visibility\":1400,\"wind\":{\"speed\":4,\"deg\":140},\"clouds\":{\"all\":90},\"dt\":1511973180,\"sys\":{\"type\":1,\"id\":7358,\"message\":0.0025,\"country\":\"UA\",\"sunrise\":1511933684,\"sunset\":1511963876},\"id\":703448,\"name\":\"Kiev\",\"cod\":200}";
 
-        when(dataProvider.getInputStream()).thenReturn(new ByteArrayInputStream(line.getBytes()));
+        //when(dataServer.getInputStream()).thenReturn(new ByteArrayInputStream(line.getBytes()));
+        when(dataProvider.get()).thenReturn(line);
         dataServer.setDataProvider(dataProvider);
 
         // #1 client
@@ -111,9 +112,11 @@ public class OpenWeatherDataServerJSONTest {
 
         DataServer dataServer = new OpenWeatherDataServerJSON();
         String line  = "{\"coord\":{\"lon\":30.52,\"lat\":50.43},\"weather\":[{\"id\":600,\"main\":\"Snow\",\"description\":\"легкий снігопад\",\"icon\":\"13d\"},{\"id\":701,\"main\":\"Mist\",\"description\":\"туман\",\"icon\":\"50d\"},{\"id\":300,\"main\":\"Drizzle\",\"description\":\"легка мряка\",\"icon\":\"09d\"}],\"base\":\"stations\",\"main\":{\"temp\":0.34,\"pressure\":1016,\"humidity\":99,\"temp_min\":0,\"temp_max\":1},\"visibility\":4400,\"wind\":{\"speed\":3,\"deg\":130},\"clouds\":{\"all\":90},\"dt\":1512027000,\"sys\":{\"type\":1,\"id\":7358,\"message\":0.0438,\"country\":\"UA\",\"sunrise\":1512020137,\"sunset\":1512050252},\"id\":703448,\"name\":\"Kiev\",\"cod\":200}";
-        InputStream stream = new ByteArrayInputStream(line.getBytes());
         dataServer.setTimeout(1);
-        dataServer.dowloadWeather(stream);
+        DataProvider dataProvider = mock(DataProviderImpl.class);
+        when(dataProvider.get()).thenReturn(line);
+        dataServer.setDataProvider(dataProvider);
+        dataServer.dowloadWeather();
         Weather forecast = dataServer.getForecast();
         assertNotNull(forecast);
     }

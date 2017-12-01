@@ -58,9 +58,7 @@ abstract public class DataServer {
             public void run() {
                 System.out.println("Weather server started");
                 while (running) {
-                    InputStream inputStream = dataProvider.getInputStream();
-                    System.out.println(inputStream);
-                    dowloadWeather(inputStream);
+                    dowloadWeather();
                 }
                 System.out.println("Weather server stoped");
             }
@@ -136,13 +134,12 @@ abstract public class DataServer {
 
     /**
      * Отримує погоді від погоднього сервера
-     * @param stream
      * @return
      */
-    public Weather dowloadWeather(InputStream stream){
+    public Weather dowloadWeather(){
         Weather weather = null;
 
-        weather = weatherParse(stream);
+        weather = weatherParse();
 
         if (weather!=null)
             getWeatherData().setWeather(weather);
@@ -163,7 +160,7 @@ abstract public class DataServer {
      * @param stream
      * @return
      */
-    abstract protected Weather weatherParse(InputStream stream);
+    abstract protected Weather weatherParse();
 
     /**
      * Повертає погоду

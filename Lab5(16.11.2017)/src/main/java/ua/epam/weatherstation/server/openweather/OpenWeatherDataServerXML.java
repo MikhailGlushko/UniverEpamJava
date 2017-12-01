@@ -27,17 +27,16 @@ public class OpenWeatherDataServerXML extends DataServer {
 
     /**
      * Обробка отриманих даних
-     * @param stream
      * @return
      */
-    protected Weather weatherParse(InputStream stream){
+    protected Weather weatherParse(){
         Pair temperature  = new Pair();
         Pair humidity  = new Pair();
         Pair pressure  = new Pair();
 
         try{
             XMLInputFactory factory = XMLInputFactory.newInstance();
-            XMLEventReader reader = factory.createXMLEventReader(stream);
+            XMLEventReader reader = factory.createXMLEventReader(getDataProvider().getInputStream());
             while (reader.hasNext()){
                 XMLEvent event = reader.nextEvent();
                 switch (event.getEventType()){
