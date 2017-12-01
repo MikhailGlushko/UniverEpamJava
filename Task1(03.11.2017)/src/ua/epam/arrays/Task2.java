@@ -1,8 +1,6 @@
-package ua.epam;
+package ua.epam.arrays;
 
-import ua.epam.helpers.HelperArrays;
-
-import java.util.Arrays;
+import ua.epam.arrays.helpers.HelperArrays;
 
 /**
  * @author Mikhail Glushko
@@ -25,11 +23,11 @@ public class Task2 {
     private static void sortMas(int[] mas) {
         int count = 0;
         for (int start=0, end=mas.length-1; start<end;  ){
-            if(mas[start]>=0)
+            while (start<end && mas[start]>=0)
                 start++;
-            if(mas[end]<0)
+            while (end> start && mas[end]<0)
                 end--;
-            if(mas[start]<mas[end]){
+            if(mas[start]<mas[end] ){
                 int tmp    = mas[start];
                 mas[start] = mas[end];
                 mas[end]   = tmp;

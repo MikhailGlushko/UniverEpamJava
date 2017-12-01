@@ -1,4 +1,4 @@
-package ua.epam;
+package ua.epam.arrays;
 
 import java.util.Arrays;
 
@@ -56,11 +56,14 @@ public class Task4 {
             for (int j = 0; j < matrix[i].length - 1; j++) {
                 if (matrix[i][j] == matrix[i][j + 1])
                     count++;
-                else
+                if(count>additionalMatrix[i][0]){
+                    additionalMatrix[i][0] = count;
+                    additionalMatrix[i][1] = i;
+                }
+                else {
                     count = 1;
+                }
             }
-            additionalMatrix[i][0] = count;
-            additionalMatrix[i][1] = i;
         }
         return additionalMatrix;
     }

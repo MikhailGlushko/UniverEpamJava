@@ -1,8 +1,6 @@
-package ua.epam;
+package ua.epam.arrays;
 
-import ua.epam.helpers.HelperArrays;
-
-import java.util.Arrays;
+import ua.epam.arrays.helpers.HelperArrays;
 
 /**
  * @author Mikhail Glushko

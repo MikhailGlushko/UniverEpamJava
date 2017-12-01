@@ -1,6 +1,6 @@
-package ua.epam;
+package ua.epam.arrays;
 
-import ua.epam.helpers.HelperArrays;
+import ua.epam.arrays.helpers.HelperArrays;
 
 /**
  * Дана квадратная матрица A порядка M (M — нечетное число). Начи ная с элемента A1,1 и перемещаясь по часовой стрелке, вывести все ее элементы

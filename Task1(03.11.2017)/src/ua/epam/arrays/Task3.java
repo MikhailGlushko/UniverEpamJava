@@ -1,6 +1,6 @@
-package ua.epam;
+package ua.epam.arrays;
 
-import ua.epam.helpers.HelperArrays;
+import ua.epam.arrays.helpers.HelperArrays;
 
 /**
  * Дана целочисленная прямоугольная матрица. Упорядочить столбцы по убыванию среднего значения.

@@ -1,8 +1,8 @@
-package ua.epam.task7;
+package ua.epam.mazeold;
 
 import java.util.Stack;
 
-class TestMaze {
+class TestMazeOld {
         public static void main(String[] args) throws Exception {
 
             testWithNoWay();
@@ -15,24 +15,23 @@ class TestMaze {
         int width = 10;
         int heigth =10;
         System.out.print("Гереруємо Поле-заготовка для лабіринту розміром: " + width + " x " + heigth);
-        Maze maze = new Maze(10, 10);
+        Maze maze = new Maze(width, heigth);
         System.out.println(" - DONE");
-        //System.out.println(maze.drawMaze(""));
         System.out.print("Генеруємо лабіринт ");
         maze.makeMaze();
-        maze.getPole()[maze.getHeigth() - 1][maze.getWidth() - 1].setLeft(1);
-        maze.getPole()[maze.getHeigth() - 1][maze.getWidth() - 1].setUp(1);
-        maze.getPole()[maze.getHeigth() - 1][maze.getWidth() - 2].setRight(1);
-        maze.getPole()[maze.getHeigth() - 2][maze.getWidth() - 1].setDown(1);
+        maze.getMazeField()[maze.getHeigth() - 1][maze.getWidth() - 1].setLeft(1);
+        maze.getMazeField()[maze.getHeigth() - 1][maze.getWidth() - 1].setUp(1);
+        maze.getMazeField()[maze.getHeigth() - 1][maze.getWidth() - 2].setRight(1);
+        maze.getMazeField()[maze.getHeigth() - 2][maze.getWidth() - 1].setDown(1);
         System.out.println(" - DONE");
         System.out.print("Задаємо початок та кінець маршруту:");
-        maze.setStart(maze.getPole()[0][0]);
-        maze.setEnd(maze.getPole()[maze.getHeigth() - 1][maze.getWidth() - 1]);
+        maze.setStart(maze.getMazeField()[0][0]);
+        maze.setEnd(maze.getMazeField()[maze.getHeigth() - 1][maze.getWidth() - 1]);
         System.out.println(" - DONE");
         System.out.print("Розраховуємо маршрут: ");
         Stack<Cell> way = maze.buildWay();
         maze.showWay(way);
-        String text = maze.drawMaze("");
+        String text = maze.generateMaze("");
         System.out.println(text);
     }
 
@@ -41,21 +40,20 @@ class TestMaze {
         int width = 10;
         int heigth =10;
         System.out.print("Гереруємо Поле-заготовка для лабіринту розміром: " + width + " x " + heigth);
-        Maze maze = new Maze(10, 10);
+        Maze maze = new Maze(width, heigth);
         System.out.println(" - DONE");
-        //System.out.println(maze.drawMaze(""));
+        System.out.print("Задаємо початок та кінець маршруту:");
+        maze.setStart(maze.getMazeField()[0][0]);
+        maze.setEnd(maze.getMazeField()[maze.getHeigth() - 1][maze.getWidth() - 1]);
+        System.out.println(" - DONE");
         System.out.print("Генеруємо лабіринт ");
         maze.makeMaze();
         System.out.println(" - DONE");
-        System.out.print("Задаємо початок та кінець маршруту:");
-        maze.setStart(maze.getPole()[0][0]);
-        maze.setEnd(maze.getPole()[maze.getHeigth() - 1][maze.getWidth() - 1]);
-        System.out.println(" - DONE");
-        maze.save("lab_with_way_clear.txt",maze.drawMaze("Лабіринт без маршруту"));
+        maze.save("lab_with_way_clear.txt",maze.generateMaze("Лабіринт без маршруту"));
         System.out.print("Розраховуємо маршрут: ");
         Stack<Cell> way = maze.buildWay();
         maze.showWay(way);
-        String text = maze.drawMaze("");
+        String text = maze.generateMaze("");
         System.out.println(text);
         maze.save("lab_with_way.txt",text);
         System.out.println();
