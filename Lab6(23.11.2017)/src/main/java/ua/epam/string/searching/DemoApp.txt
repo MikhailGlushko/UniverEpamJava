@@ -1,0 +1,911 @@
+
+Get information from site: http://www.vogella.com/tutorials/Mockito/article.htmlGetting content - OK Getting URL list - OK Found: 87 URLsFound: 23740 words, added new unique: 1252
+Get information from site: http://www.vogella.com/tutorials/Mockito/article.html Getting content - OK Found: 23740 words, added new unique: 0
+Get information from site: http://vg08.met.vgwort.de/na/27d90952a5254731bed50a1ef8bd6fb3 Getting content - OK Found: 3 words, added new unique: 1
+Get information from site: http://creativecommons.org/licenses/by-nc-sa/3.0/de/deed.en Getting contentServer returned HTTP response code - OK Found: 1 words, added new unique: 0
+Get information from site: http://chiuki.github.io/advanced-android-espresso Getting content - OK Found: 13418 words, added new unique: 355
+Get information from site: http://martinfowler.com/articles/mocksArentStubs.html Getting content - OK Found: 72 words, added new unique: 6
+Get information from site: https://github.com/mockito/mockito/blob/master/doc/release-notes/official.md Getting content - OK Found: 102971 words, added new unique: 2027
+Get information from site: https://github.com/mockito/mockito Getting content - OK Found: 58512 words, added new unique: 365
+Get information from site: https://dzone.com/refcardz/mockito Getting content - OK Found: 83916 words, added new unique: 1545
+Get information from site: http://site.mockito.org Getting content - OK Found: 7219 words, added new unique: 210
+Get information from site: http://www.vogella.com/img/common/sourcecode.svg Getting content - OK Found: 70 words, added new unique: 6
+Get information from site: http://www.vogella.com/img/common/license_new.svg Getting content - OK Found: 80 words, added new unique: 6
+Get information from site: http://www.vogella.com/license.html Getting content - OK Found: 5590 words, added new unique: 92
+Get information from site: http://www.vogella.com/img/common/discussions.svg Getting content - OK Found: 157 words, added new unique: 6
+Get information from site: http://www.vogella.com/img/common/donate.svg Getting content - OK Found: 223 words, added new unique: 9
+Get information from site: https://github.com/jayway/powermock/wiki/MockitoUsage Getting content - OK Found: 11307 words, added new unique: 65
+Get information from site: https://github.com/mockito/mockito/wiki/FAQ#what-are-the-limitations-of-mockito Getting content - OK Found: 17091 words, added new unique: 145
+Get information from site: https://github.com/mockito/mockito/wiki/Mockito-And-Private-Methods Getting content - OK Found: 11194 words, added new unique: 25
+Get information from site: https://mvnrepository.com/artifact/org.hamcrest/hamcrest-library Getting content - OK Found: 4387 words, added new unique: 187
+Get information from site: http://download.eclipse.org/tools/orbit/downloads Getting content - OK Found: 9682 words, added new unique: 142
+Get information from site: http://search.maven.org Getting content - OK Found: 6595 words, added new unique: 160
+Get information from site: http://www.vogella.com/tutorials/JUnit/article.html Getting content - OK Found: 36242 words, added new unique: 517
+Get information from site: http://www.vogella.com/img/common/xfacebook_small.png.pagespeed.ic.rToAGj9K65.png Getting content - OK Found: 77 words, added new unique: 34
+Get information from site: http://www.vogella.com/img/tutoriallinks/xtwitter.png.pagespeed.ic.5z4YhYIkb2.png Getting content - OK Found: 61 words, added new unique: 40
+Get information from site: http://www.vogella.com/books/index.html Getting content - OK Found: 5655 words, added new unique: 11
+Get information from site: http://www.vogella.com/img/icons/xsrch.png.pagespeed.ic.BP8TtuQRzJ.png Getting content - OK Found: 25 words, added new unique: 18
+Get information from site: http://www.vogella.com/search.html Getting content - OK Found: 5336 words, added new unique: 6
+Get information from site: http://www.vogella.com/faq.html Getting content - OK Found: 6179 words, added new unique: 18
+Get information from site: http://www.vogella.com/jobs Getting content - OK Found: 5686 words, added new unique: 13
+Get information from site: http://blog.vogella.com Getting content - OK Found: 48312 words, added new unique: 1046
+Get information from site: http://www.vogella.com/customers.html Getting content - OK Found: 6763 words, added new unique: 85
+Get information from site: http://www.vogella.com/people/index.html Getting content - OK Found: 6060 words, added new unique: 30
+Get information from site: http://www.vogella.com/aboutvogella.html Getting content - OK Found: 5751 words, added new unique: 77
+Get information from site: http://www.vogella.com/books/git.html Getting content - OK Found: 7973 words, added new unique: 98
+Get information from site: http://www.vogella.com/books/eclipsecontribution.html Getting content - OK Found: 7405 words, added new unique: 13
+Get information from site: http://www.vogella.com/books/eclipseide.html Getting content - OK Found: 8107 words, added new unique: 14
+Get information from site: http://www.vogella.com/books/eclipsercp.html Getting content - OK Found: 8220 words, added new unique: 20
+Get information from site: http://www.vogella.com/files/eclipse_cheatsheet.pdf Getting content - OK Found: 9953 words, added new unique: 2490
+Get information from site: http://www.vogella.com/downloads Getting content - OK Found: 5393 words, added new unique: 3
+Get information from site: http://www.vogella.com/training/online/android/androidprofessional.html Getting content - OK Found: 6604 words, added new unique: 152
+Get information from site: http://www.vogella.com/training/online/eclipse/eclipsercp.html Getting content - OK Found: 7294 words, added new unique: 76
+Get information from site: http://www.vogella.com/training/online/index.html Getting content - OK Found: 5203 words, added new unique: 32
+Get information from site: http://www.vogella.com/training/testbuild/gradle.html Getting content - OK Found: 6258 words, added new unique: 73
+Get information from site: http://www.vogella.com/training/testbuild/maven.html Getting content - OK Found: 4807 words, added new unique: 9
+Get information from site: http://www.vogella.com/training/programming/java.html Getting content - OK Found: 5204 words, added new unique: 49
+Get information from site: http://www.vogella.com/training/testbuild/javatesting.html Getting content - OK Found: 4890 words, added new unique: 17
+Get information from site: http://www.vogella.com/training/programming/index.html Getting content - OK Found: 6086 words, added new unique: 1
+Get information from site: http://www.vogella.com/training/git/index.html Getting content - OK Found: 5978 words, added new unique: 35
+Get information from site: http://www.vogella.com/training/android/androidexpert.html Getting content - OK Found: 6104 words, added new unique: 53
+Get information from site: http://www.vogella.com/training/android/androidtesting.html Getting content - OK Found: 6004 words, added new unique: 39
+Get information from site: http://www.vogella.com/training/android/androidprofessional.html Getting content - OK Found: 7201 words, added new unique: 20
+Get information from site: http://www.vogella.com/training/android/index.html Getting content - OK Found: 5938 words, added new unique: 2
+Get information from site: http://www.vogella.com/training/eclipse/eclipsenattable.html Getting content - OK Found: 5110 words, added new unique: 17
+Get information from site: http://www.vogella.com/training/eclipse/rcpjavaeespring.html Getting content - OK Found: 5143 words, added new unique: 44
+Get information from site: http://www.vogella.com/training/eclipse/eclipseplugin.html Getting content - OK Found: 6718 words, added new unique: 29
+Get information from site: http://www.vogella.com/training/eclipse/eclipsercpmigration.html Getting content - OK Found: 5272 words, added new unique: 24
+Get information from site: http://www.vogella.com/training/eclipse/tycho.html Getting content - OK Found: 6423 words, added new unique: 41
+Get information from site: http://www.vogella.com/training/eclipse/eclipsercp.html Getting content - OK Found: 7984 words, added new unique: 24
+Get information from site: http://www.vogella.com/training/eclipse/index.html Getting content - OK Found: 5945 words, added new unique: 2
+Get information from site: http://www.vogella.com/code/index.html Getting content - OK Found: 5724 words, added new unique: 3
+Get information from site: http://www.vogella.com/tutorials/designpattern.html Getting content - OK Found: 6153 words, added new unique: 15
+Get information from site: http://www.vogella.com/tutorials/algorithms.html Getting content - OK Found: 6778 words, added new unique: 41
+Get information from site: http://www.vogella.com/tutorials/google.html Getting content - OK Found: 6235 words, added new unique: 6
+Get information from site: http://www.vogella.com/tutorials/technology.html Getting content - OK Found: 8463 words, added new unique: 37
+Get information from site: http://www.vogella.com/tutorials/java.html Getting content - OK Found: 8753 words, added new unique: 46
+Get information from site: http://www.vogella.com/tutorials/web.html Getting content - OK Found: 7566 words, added new unique: 25
+Get information from site: http://www.vogella.com/tutorials/eclipse.html Getting content - OK Found: 12380 words, added new unique: 93
+Get information from site: http://www.vogella.com/tutorials/eclipseide.html Getting content - OK Found: 6939 words, added new unique: 10
+Get information from site: http://www.vogella.com/tutorials/android.html Getting content - OK Found: 11833 words, added new unique: 98
+Get information from site: http://www.vogella.com/img/logo/xindex_logo.png.pagespeed.ic.MsfY6nLwK9.png Getting content - OK Found: 589 words, added new unique: 319
+Get information from site: http://www.vogella.com/contact.html Getting content - OK Found: 5642 words, added new unique: 9
+Get information from site: http://www.vogella.com/support.html Getting content - OK Found: 4043 words, added new unique: 12
+Get information from site: http://www.vogella.com/company Getting content - OK Found: 5726 words, added new unique: 2
+Get information from site: http://www.vogella.com/books Getting content - OK Found: 5654 words, added new unique: 0
+Get information from site: http://www.vogella.com/products Getting content - OK Found: 5808 words, added new unique: 7
+Get information from site: http://www.vogella.com/consulting Getting content - OK Found: 5818 words, added new unique: 13
+Get information from site: http://www.vogella.com/training Getting content - OK Found: 7154 words, added new unique: 3
+Get information from site: http://www.vogella.com/tutorials Getting content - OK Found: 6180 words, added new unique: 3
+Get information from site: http://www.vogella.com/img/logo/index_logo.svg Getting content - OK Found: 4880 words, added new unique: 1337
+Get information from site: http://www.vogella.com Getting content - OK Found: 5831 words, added new unique: 6
+Get information from site: http://www.vogella.com/img/icons/burger.svg Getting content - OK Found: 481 words, added new unique: 18
+Get information from site: https://twitter.com/share?url Getting content - OK Found: 1794 words, added new unique: 37
+Get information from site: https://www.facebook.com/sharer/sharer.php?u Getting content - OK Found: 59560 words, added new unique: 3367
+Get information from site: http://www.vogella.com/legal.html Getting content - OK Found: 7040 words, added new unique: 165
+Get information from site: http://silktide.com/cookieconsent Getting content - OK Found: 51 words, added new unique: 2
+Get information from site: http://www.vogella.com/A.tutorials,,_Mockito,,_coderay-asciidoctor.css+css,,_articles.css+css,,_header.css,Mcc.cIdgFRvgk2.css.pagespeed.cf.PcQrLqCF-_.css Getting content - OK Found: 2550 words, added new unique: 79
+Get information from site: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css Getting content - OK Found: 6736 words, added new unique: 954
+Get information from site: https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700 Getting content - OK Found: 701 words, added new unique: 31
+
+TOP-10 words
+1) class found: 9805 times
+1) 2078 times on http://www.vogella.com/tutorials/Mockito/article.html
+2) 1750 times on http://www.vogella.com/tutorials/JUnit/article.html
+3) 1224 times on https://dzone.com/refcardz/mockito
+4) 842 times on https://github.com/mockito/mockito
+5) 795 times on https://github.com/mockito/mockito/blob/master/doc/release-notes/official.md
+6) 285 times on http://blog.vogella.com
+7) 257 times on https://github.com/mockito/mockito/wiki/FAQ#what-are-the-limitations-of-mockito
+8) 201 times on http://download.eclipse.org/tools/orbit/downloads
+9) 199 times on https://github.com/jayway/powermock/wiki/MockitoUsage
+10) 193 times on https://github.com/mockito/mockito/wiki/Mockito-And-Private-Methods
+11) 181 times on http://site.mockito.org
+12) 120 times on http://chiuki.github.io/advanced-android-espresso
+13) 70 times on http://search.maven.org
+14) 57 times on http://www.vogella.com/tutorials
+15) 49 times on http://www.vogella.com/training
+16) 47 times on http://www.vogella.com/training/android/androidprofessional.html
+17) 47 times on http://www.vogella.com/training/eclipse/eclipsercp.html
+18) 44 times on https://mvnrepository.com/artifact/org.hamcrest/hamcrest-library
+19) 43 times on http://www.vogella.com/tutorials/eclipse.html
+20) 41 times on http://www.vogella.com/tutorials/android.html
+21) 39 times on http://www.vogella.com
+22) 37 times on http://www.vogella.com/people/index.html
+23) 37 times on http://www.vogella.com/code/index.html
+24) 36 times on http://www.vogella.com/training/programming/index.html
+25) 36 times on http://www.vogella.com/company
+26) 35 times on http://www.vogella.com/training/eclipse/eclipseplugin.html
+27) 35 times on http://www.vogella.com/tutorials/technology.html
+28) 34 times on http://www.vogella.com/products
+29) 32 times on http://www.vogella.com/books/index.html
+30) 32 times on http://www.vogella.com/books
+31) 31 times on https://www.facebook.com/sharer/sharer.php?u
+32) 30 times on http://www.vogella.com/training/online/index.html
+33) 30 times on http://www.vogella.com/training/testbuild/gradle.html
+34) 29 times on http://www.vogella.com/jobs
+35) 29 times on http://www.vogella.com/tutorials/java.html
+36) 29 times on http://www.vogella.com/tutorials/web.html
+37) 28 times on http://www.vogella.com/training/android/androidexpert.html
+38) 28 times on http://www.vogella.com/training/android/androidtesting.html
+39) 28 times on http://www.vogella.com/training/android/index.html
+40) 28 times on http://www.vogella.com/training/eclipse/tycho.html
+41) 28 times on http://www.vogella.com/training/eclipse/index.html
+42) 28 times on http://www.vogella.com/consulting
+43) 27 times on http://www.vogella.com/training/git/index.html
+44) 27 times on http://www.vogella.com/training/eclipse/eclipsercpmigration.html
+45) 26 times on http://www.vogella.com/training/eclipse/eclipsenattable.html
+46) 26 times on http://www.vogella.com/training/eclipse/rcpjavaeespring.html
+47) 25 times on http://www.vogella.com/books/git.html
+48) 25 times on http://www.vogella.com/books/eclipseide.html
+49) 25 times on http://www.vogella.com/books/eclipsercp.html
+50) 25 times on http://www.vogella.com/tutorials/eclipseide.html
+51) 24 times on http://www.vogella.com/books/eclipsecontribution.html
+52) 24 times on http://www.vogella.com/training/programming/java.html
+53) 24 times on http://www.vogella.com/contact.html
+54) 23 times on http://www.vogella.com/customers.html
+55) 23 times on http://www.vogella.com/training/online/android/androidprofessional.html
+56) 23 times on http://www.vogella.com/training/online/eclipse/eclipsercp.html
+57) 23 times on http://www.vogella.com/tutorials/algorithms.html
+58) 23 times on http://www.vogella.com/tutorials/google.html
+59) 21 times on http://www.vogella.com/tutorials/designpattern.html
+60) 21 times on https://twitter.com/share?url
+61) 20 times on http://www.vogella.com/downloads
+62) 19 times on http://www.vogella.com/training/testbuild/maven.html
+63) 19 times on http://www.vogella.com/training/testbuild/javatesting.html
+64) 18 times on http://www.vogella.com/aboutvogella.html
+65) 15 times on http://www.vogella.com/support.html
+66) 15 times on http://www.vogella.com/legal.html
+67) 14 times on http://www.vogella.com/faq.html
+68) 13 times on http://www.vogella.com/license.html
+69) 12 times on http://www.vogella.com/search.html
+70) 3 times on http://www.vogella.com/A.tutorials,,_Mockito,,_coderay-asciidoctor.css+css,,_articles.css+css,,_header.css,Mcc.cIdgFRvgk2.css.pagespeed.cf.PcQrLqCF-_.css
+
+2) href found: 8130 times
+1) 1075 times on https://github.com/mockito/mockito/blob/master/doc/release-notes/official.md
+2) 310 times on http://www.vogella.com/tutorials/Mockito/article.html
+3) 297 times on https://github.com/mockito/mockito
+4) 279 times on http://blog.vogella.com
+5) 184 times on http://www.vogella.com/tutorials/JUnit/article.html
+6) 168 times on http://www.vogella.com/tutorials/eclipse.html
+7) 163 times on http://www.vogella.com/tutorials/android.html
+8) 147 times on https://dzone.com/refcardz/mockito
+9) 146 times on https://github.com/mockito/mockito/wiki/FAQ#what-are-the-limitations-of-mockito
+10) 140 times on https://github.com/jayway/powermock/wiki/MockitoUsage
+11) 129 times on http://www.vogella.com/tutorials/java.html
+12) 121 times on http://www.vogella.com/tutorials/technology.html
+13) 118 times on http://download.eclipse.org/tools/orbit/downloads
+14) 114 times on http://www.vogella.com/tutorials/web.html
+15) 112 times on https://github.com/mockito/mockito/wiki/Mockito-And-Private-Methods
+16) 112 times on http://www.vogella.com/books/eclipsercp.html
+17) 111 times on http://www.vogella.com/books/git.html
+18) 111 times on http://www.vogella.com/books/eclipseide.html
+19) 109 times on http://www.vogella.com/training
+20) 108 times on http://www.vogella.com/tutorials/eclipseide.html
+21) 107 times on http://www.vogella.com/tutorials/algorithms.html
+22) 106 times on http://www.vogella.com/books/eclipsecontribution.html
+23) 104 times on http://www.vogella.com/faq.html
+24) 103 times on http://www.vogella.com/products
+25) 103 times on http://www.vogella.com/tutorials
+26) 100 times on http://www.vogella.com/tutorials/designpattern.html
+27) 100 times on http://www.vogella.com/tutorials/google.html
+28) 99 times on http://www.vogella.com/customers.html
+29) 99 times on http://www.vogella.com/people/index.html
+30) 99 times on http://www.vogella.com/code/index.html
+31) 98 times on http://www.vogella.com/jobs
+32) 98 times on http://www.vogella.com
+33) 97 times on http://site.mockito.org
+34) 97 times on http://www.vogella.com/aboutvogella.html
+35) 97 times on http://www.vogella.com/training/programming/index.html
+36) 97 times on http://www.vogella.com/company
+37) 96 times on http://www.vogella.com/books/index.html
+38) 96 times on http://www.vogella.com/books
+39) 96 times on http://www.vogella.com/legal.html
+40) 95 times on http://www.vogella.com/license.html
+41) 95 times on http://www.vogella.com/training/android/index.html
+42) 95 times on http://www.vogella.com/training/eclipse/index.html
+43) 95 times on http://www.vogella.com/consulting
+44) 94 times on http://www.vogella.com/contact.html
+45) 93 times on http://www.vogella.com/downloads
+46) 92 times on http://www.vogella.com/search.html
+47) 81 times on https://mvnrepository.com/artifact/org.hamcrest/hamcrest-library
+48) 80 times on http://www.vogella.com/training/online/index.html
+49) 80 times on http://www.vogella.com/training/eclipse/eclipsercp.html
+50) 79 times on http://www.vogella.com/training/android/androidprofessional.html
+51) 76 times on http://www.vogella.com/training/online/android/androidprofessional.html
+52) 76 times on http://www.vogella.com/training/online/eclipse/eclipsercp.html
+53) 76 times on http://www.vogella.com/training/git/index.html
+54) 76 times on http://www.vogella.com/training/android/androidexpert.html
+55) 76 times on http://www.vogella.com/training/android/androidtesting.html
+56) 76 times on http://www.vogella.com/training/eclipse/eclipsercpmigration.html
+57) 76 times on http://www.vogella.com/training/eclipse/tycho.html
+58) 73 times on http://www.vogella.com/training/testbuild/gradle.html
+59) 73 times on http://www.vogella.com/training/testbuild/maven.html
+60) 73 times on http://www.vogella.com/training/programming/java.html
+61) 73 times on http://www.vogella.com/training/testbuild/javatesting.html
+62) 73 times on http://www.vogella.com/training/eclipse/eclipsenattable.html
+63) 73 times on http://www.vogella.com/training/eclipse/rcpjavaeespring.html
+64) 73 times on http://www.vogella.com/training/eclipse/eclipseplugin.html
+65) 73 times on http://www.vogella.com/support.html
+66) 39 times on http://chiuki.github.io/advanced-android-espresso
+67) 37 times on http://search.maven.org
+68) 6 times on https://twitter.com/share?url
+69) 6 times on https://www.facebook.com/sharer/sharer.php?u
+70) 1 times on http://martinfowler.com/articles/mocksArentStubs.html
+
+3) vogella found: 6556 times
+1) 263 times on http://blog.vogella.com
+2) 244 times on http://www.vogella.com/tutorials/Mockito/article.html
+3) 182 times on http://www.vogella.com/tutorials/eclipse.html
+4) 177 times on http://www.vogella.com/tutorials/android.html
+5) 143 times on http://www.vogella.com/tutorials/java.html
+6) 135 times on http://www.vogella.com/tutorials/technology.html
+7) 132 times on http://www.vogella.com/tutorials/JUnit/article.html
+8) 132 times on http://www.vogella.com/training
+9) 132 times on http://www.vogella.com/legal.html
+10) 128 times on http://www.vogella.com/tutorials/web.html
+11) 123 times on http://www.vogella.com/people/index.html
+12) 122 times on http://www.vogella.com/tutorials/eclipseide.html
+13) 121 times on http://www.vogella.com/tutorials/algorithms.html
+14) 118 times on http://www.vogella.com/faq.html
+15) 118 times on http://www.vogella.com/books/eclipsecontribution.html
+16) 118 times on http://www.vogella.com/books/eclipsercp.html
+17) 117 times on http://www.vogella.com/books/git.html
+18) 117 times on http://www.vogella.com/books/eclipseide.html
+19) 117 times on http://www.vogella.com/company
+20) 116 times on http://www.vogella.com/aboutvogella.html
+21) 115 times on http://www.vogella.com/training/programming/index.html
+22) 115 times on http://www.vogella.com/contact.html
+23) 114 times on http://www.vogella.com/jobs
+24) 114 times on http://www.vogella.com/tutorials/designpattern.html
+25) 114 times on http://www.vogella.com/tutorials/google.html
+26) 114 times on http://www.vogella.com/products
+27) 114 times on http://www.vogella.com
+28) 113 times on http://www.vogella.com/books/index.html
+29) 113 times on http://www.vogella.com/training/android/index.html
+30) 113 times on http://www.vogella.com/training/eclipse/index.html
+31) 113 times on http://www.vogella.com/books
+32) 111 times on http://www.vogella.com/consulting
+33) 110 times on http://www.vogella.com/license.html
+34) 108 times on http://www.vogella.com/customers.html
+35) 108 times on http://www.vogella.com/tutorials
+36) 107 times on http://www.vogella.com/search.html
+37) 107 times on http://www.vogella.com/code/index.html
+38) 106 times on http://www.vogella.com/downloads
+39) 103 times on http://www.vogella.com/training/eclipse/eclipsercp.html
+40) 102 times on http://www.vogella.com/training/android/androidprofessional.html
+41) 100 times on http://www.vogella.com/training/online/index.html
+42) 98 times on http://www.vogella.com/training/online/android/androidprofessional.html
+43) 98 times on http://www.vogella.com/training/online/eclipse/eclipsercp.html
+44) 95 times on http://www.vogella.com/training/git/index.html
+45) 95 times on http://www.vogella.com/training/android/androidexpert.html
+46) 95 times on http://www.vogella.com/training/android/androidtesting.html
+47) 95 times on http://www.vogella.com/training/eclipse/eclipsercpmigration.html
+48) 95 times on http://www.vogella.com/training/eclipse/tycho.html
+49) 90 times on http://www.vogella.com/training/eclipse/eclipsenattable.html
+50) 90 times on http://www.vogella.com/training/eclipse/rcpjavaeespring.html
+51) 90 times on http://www.vogella.com/training/eclipse/eclipseplugin.html
+52) 89 times on http://www.vogella.com/training/testbuild/gradle.html
+53) 89 times on http://www.vogella.com/training/testbuild/maven.html
+54) 89 times on http://www.vogella.com/training/programming/java.html
+55) 89 times on http://www.vogella.com/training/testbuild/javatesting.html
+56) 79 times on http://www.vogella.com/support.html
+57) 11 times on http://www.vogella.com/A.tutorials,,_Mockito,,_coderay-asciidoctor.css+css,,_articles.css+css,,_header.css,Mcc.cIdgFRvgk2.css.pagespeed.cf.PcQrLqCF-_.css
+
+4) span found: 6337 times
+1) 2572 times on http://www.vogella.com/tutorials/Mockito/article.html
+2) 1864 times on http://www.vogella.com/tutorials/JUnit/article.html
+3) 432 times on https://github.com/mockito/mockito
+4) 292 times on https://github.com/mockito/mockito/blob/master/doc/release-notes/official.md
+5) 248 times on http://blog.vogella.com
+6) 220 times on http://site.mockito.org
+7) 165 times on https://dzone.com/refcardz/mockito
+8) 92 times on http://chiuki.github.io/advanced-android-espresso
+9) 80 times on https://github.com/mockito/mockito/wiki/FAQ#what-are-the-limitations-of-mockito
+10) 36 times on https://github.com/jayway/powermock/wiki/MockitoUsage
+11) 36 times on https://github.com/mockito/mockito/wiki/Mockito-And-Private-Methods
+12) 34 times on http://www.vogella.com/training/eclipse/eclipseplugin.html
+13) 24 times on http://www.vogella.com/training/testbuild/gradle.html
+14) 19 times on https://mvnrepository.com/artifact/org.hamcrest/hamcrest-library
+15) 17 times on http://www.vogella.com/training/eclipse/eclipsenattable.html
+16) 16 times on http://www.vogella.com/people/index.html
+17) 16 times on http://www.vogella.com/training/testbuild/maven.html
+18) 16 times on http://www.vogella.com/training/eclipse/rcpjavaeespring.html
+19) 14 times on http://download.eclipse.org/tools/orbit/downloads
+20) 12 times on http://www.vogella.com/training/programming/java.html
+21) 6 times on http://www.vogella.com/books/git.html
+22) 6 times on http://www.vogella.com/books/eclipseide.html
+23) 6 times on http://www.vogella.com/books/eclipsercp.html
+24) 6 times on http://www.vogella.com/training/online/index.html
+25) 4 times on http://www.vogella.com/books/eclipsecontribution.html
+26) 4 times on http://www.vogella.com/training/online/android/androidprofessional.html
+27) 4 times on http://www.vogella.com/training/online/eclipse/eclipsercp.html
+28) 4 times on http://www.vogella.com/training/git/index.html
+29) 4 times on http://www.vogella.com/training/android/androidexpert.html
+30) 4 times on http://www.vogella.com/training/android/androidtesting.html
+31) 4 times on http://www.vogella.com/training/android/androidprofessional.html
+32) 4 times on http://www.vogella.com/training/eclipse/eclipsercpmigration.html
+33) 4 times on http://www.vogella.com/training/eclipse/tycho.html
+34) 4 times on http://www.vogella.com/training/eclipse/eclipsercp.html
+35) 2 times on http://www.vogella.com/license.html
+36) 2 times on http://www.vogella.com/books/index.html
+37) 2 times on http://www.vogella.com/search.html
+38) 2 times on http://www.vogella.com/faq.html
+39) 2 times on http://www.vogella.com/jobs
+40) 2 times on http://www.vogella.com/customers.html
+41) 2 times on http://www.vogella.com/aboutvogella.html
+42) 2 times on http://www.vogella.com/downloads
+43) 2 times on http://www.vogella.com/training/testbuild/javatesting.html
+44) 2 times on http://www.vogella.com/training/programming/index.html
+45) 2 times on http://www.vogella.com/training/android/index.html
+46) 2 times on http://www.vogella.com/training/eclipse/index.html
+47) 2 times on http://www.vogella.com/code/index.html
+48) 2 times on http://www.vogella.com/tutorials/designpattern.html
+49) 2 times on http://www.vogella.com/tutorials/algorithms.html
+50) 2 times on http://www.vogella.com/tutorials/google.html
+51) 2 times on http://www.vogella.com/tutorials/technology.html
+52) 2 times on http://www.vogella.com/tutorials/java.html
+53) 2 times on http://www.vogella.com/tutorials/web.html
+54) 2 times on http://www.vogella.com/tutorials/eclipse.html
+55) 2 times on http://www.vogella.com/tutorials/eclipseide.html
+56) 2 times on http://www.vogella.com/tutorials/android.html
+57) 2 times on http://www.vogella.com/contact.html
+58) 2 times on http://www.vogella.com/support.html
+59) 2 times on http://www.vogella.com/company
+60) 2 times on http://www.vogella.com/books
+61) 2 times on http://www.vogella.com/products
+62) 2 times on http://www.vogella.com/consulting
+63) 2 times on http://www.vogella.com/training
+64) 2 times on http://www.vogella.com/tutorials
+65) 2 times on http://www.vogella.com
+66) 2 times on https://twitter.com/share?url
+67) 2 times on http://www.vogella.com/legal.html
+68) 2 times on http://www.vogella.com/A.tutorials,,_Mockito,,_coderay-asciidoctor.css+css,,_articles.css+css,,_header.css,Mcc.cIdgFRvgk2.css.pagespeed.cf.PcQrLqCF-_.css
+
+5) http found: 6291 times
+1) 334 times on http://blog.vogella.com
+2) 210 times on http://www.vogella.com/tutorials/Mockito/article.html
+3) 173 times on http://www.vogella.com/tutorials/eclipse.html
+4) 168 times on http://www.vogella.com/tutorials/android.html
+5) 134 times on http://www.vogella.com/tutorials/java.html
+6) 127 times on http://www.vogella.com/books/eclipsercp.html
+7) 126 times on http://www.vogella.com/books/git.html
+8) 126 times on http://www.vogella.com/books/eclipseide.html
+9) 126 times on http://www.vogella.com/tutorials/technology.html
+10) 119 times on http://www.vogella.com/tutorials/web.html
+11) 119 times on http://www.vogella.com/training
+12) 114 times on http://www.vogella.com/books/eclipsecontribution.html
+13) 113 times on http://www.vogella.com/tutorials/eclipseide.html
+14) 112 times on http://www.vogella.com/tutorials/algorithms.html
+15) 110 times on http://www.vogella.com/people/index.html
+16) 106 times on http://www.vogella.com/tutorials/JUnit/article.html
+17) 105 times on http://www.vogella.com/tutorials/designpattern.html
+18) 105 times on http://www.vogella.com/tutorials/google.html
+19) 104 times on http://www.vogella.com/products
+20) 103 times on http://www.vogella.com/faq.html
+21) 103 times on http://www.vogella.com/customers.html
+22) 102 times on http://www.vogella.com/training/programming/index.html
+23) 102 times on http://www.vogella.com/training/android/index.html
+24) 102 times on http://www.vogella.com/training/eclipse/index.html
+25) 102 times on http://www.vogella.com
+26) 101 times on http://www.vogella.com/jobs
+27) 101 times on http://www.vogella.com/aboutvogella.html
+28) 101 times on http://www.vogella.com/company
+29) 100 times on http://www.vogella.com/books/index.html
+30) 100 times on http://www.vogella.com/books
+31) 100 times on http://www.vogella.com/legal.html
+32) 99 times on http://www.vogella.com/tutorials
+33) 98 times on http://www.vogella.com/license.html
+34) 97 times on http://www.vogella.com/search.html
+35) 96 times on http://www.vogella.com/downloads
+36) 96 times on http://www.vogella.com/code/index.html
+37) 96 times on http://www.vogella.com/contact.html
+38) 96 times on http://www.vogella.com/consulting
+39) 89 times on http://www.vogella.com/training/online/index.html
+40) 88 times on http://www.vogella.com/training/online/android/androidprofessional.html
+41) 88 times on http://www.vogella.com/training/online/eclipse/eclipsercp.html
+42) 86 times on http://www.vogella.com/training/eclipse/eclipsercp.html
+43) 85 times on http://www.vogella.com/training/android/androidprofessional.html
+44) 84 times on http://www.vogella.com/training/git/index.html
+45) 84 times on http://www.vogella.com/training/android/androidexpert.html
+46) 84 times on http://www.vogella.com/training/android/androidtesting.html
+47) 84 times on http://www.vogella.com/training/eclipse/eclipsercpmigration.html
+48) 84 times on http://www.vogella.com/training/eclipse/tycho.html
+49) 79 times on http://www.vogella.com/training/eclipse/eclipsenattable.html
+50) 79 times on http://www.vogella.com/training/eclipse/rcpjavaeespring.html
+51) 79 times on http://www.vogella.com/training/eclipse/eclipseplugin.html
+52) 78 times on http://www.vogella.com/training/testbuild/gradle.html
+53) 78 times on http://www.vogella.com/training/testbuild/maven.html
+54) 78 times on http://www.vogella.com/training/programming/java.html
+55) 78 times on http://www.vogella.com/training/testbuild/javatesting.html
+56) 75 times on http://www.vogella.com/support.html
+57) 55 times on https://github.com/mockito/mockito/blob/master/doc/release-notes/official.md
+58) 52 times on http://download.eclipse.org/tools/orbit/downloads
+59) 43 times on http://site.mockito.org
+60) 24 times on http://chiuki.github.io/advanced-android-espresso
+61) 22 times on https://github.com/mockito/mockito
+62) 22 times on https://dzone.com/refcardz/mockito
+63) 16 times on https://github.com/mockito/mockito/wiki/FAQ#what-are-the-limitations-of-mockito
+64) 11 times on http://search.maven.org
+65) 9 times on http://www.vogella.com/img/logo/index_logo.svg
+66) 8 times on https://github.com/jayway/powermock/wiki/MockitoUsage
+67) 6 times on https://github.com/mockito/mockito/wiki/Mockito-And-Private-Methods
+68) 4 times on http://www.vogella.com/img/icons/burger.svg
+69) 2 times on https://mvnrepository.com/artifact/org.hamcrest/hamcrest-library
+70) 2 times on http://www.vogella.com/files/eclipse_cheatsheet.pdf
+71) 2 times on https://twitter.com/share?url
+72) 2 times on https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css
+73) 1 times on http://www.vogella.com/img/common/sourcecode.svg
+74) 1 times on http://www.vogella.com/img/common/license_new.svg
+75) 1 times on http://www.vogella.com/img/common/discussions.svg
+76) 1 times on http://www.vogella.com/img/common/donate.svg
+77) 1 times on https://www.facebook.com/sharer/sharer.php?u
+
+6) html found: 3769 times
+1) 137 times on https://dzone.com/refcardz/mockito
+2) 135 times on http://www.vogella.com/tutorials/eclipse.html
+3) 130 times on http://www.vogella.com/tutorials/android.html
+4) 118 times on http://www.vogella.com/tutorials/Mockito/article.html
+5) 96 times on http://www.vogella.com/tutorials/java.html
+6) 88 times on http://www.vogella.com/tutorials/technology.html
+7) 81 times on http://www.vogella.com/tutorials/web.html
+8) 75 times on http://www.vogella.com/tutorials/eclipseide.html
+9) 75 times on http://www.vogella.com/training
+10) 74 times on http://www.vogella.com/tutorials/algorithms.html
+11) 69 times on http://www.vogella.com/tutorials
+12) 67 times on http://www.vogella.com/tutorials/designpattern.html
+13) 67 times on http://www.vogella.com/tutorials/google.html
+14) 66 times on http://www.vogella.com/people/index.html
+15) 64 times on http://www.vogella.com/books/eclipsercp.html
+16) 63 times on http://www.vogella.com/books/index.html
+17) 63 times on http://www.vogella.com/faq.html
+18) 63 times on http://www.vogella.com/jobs
+19) 63 times on http://www.vogella.com/books/git.html
+20) 63 times on http://www.vogella.com/books/eclipsecontribution.html
+21) 63 times on http://www.vogella.com/books/eclipseide.html
+22) 63 times on http://www.vogella.com/training/programming/index.html
+23) 63 times on http://www.vogella.com/products
+24) 62 times on http://www.vogella.com/aboutvogella.html
+25) 62 times on http://www.vogella.com/training/android/index.html
+26) 62 times on http://www.vogella.com/training/eclipse/index.html
+27) 62 times on http://www.vogella.com/books
+28) 61 times on http://www.vogella.com/company
+29) 61 times on http://www.vogella.com/legal.html
+30) 60 times on http://www.vogella.com/license.html
+31) 60 times on http://www.vogella.com/tutorials/JUnit/article.html
+32) 59 times on http://www.vogella.com/search.html
+33) 59 times on http://www.vogella.com/customers.html
+34) 59 times on http://www.vogella.com/code/index.html
+35) 59 times on http://www.vogella.com/contact.html
+36) 59 times on http://www.vogella.com
+37) 58 times on http://www.vogella.com/downloads
+38) 58 times on http://www.vogella.com/consulting
+39) 53 times on http://www.vogella.com/training/online/index.html
+40) 52 times on http://www.vogella.com/training/eclipse/eclipsercp.html
+41) 51 times on http://www.vogella.com/training/online/android/androidprofessional.html
+42) 51 times on http://www.vogella.com/training/online/eclipse/eclipsercp.html
+43) 51 times on http://www.vogella.com/training/git/index.html
+44) 51 times on http://www.vogella.com/training/android/androidexpert.html
+45) 51 times on http://www.vogella.com/training/android/androidtesting.html
+46) 51 times on http://www.vogella.com/training/android/androidprofessional.html
+47) 51 times on http://www.vogella.com/training/eclipse/eclipsercpmigration.html
+48) 51 times on http://www.vogella.com/training/eclipse/tycho.html
+49) 49 times on http://www.vogella.com/training/testbuild/gradle.html
+50) 49 times on http://www.vogella.com/training/testbuild/maven.html
+51) 49 times on http://www.vogella.com/training/programming/java.html
+52) 49 times on http://www.vogella.com/training/testbuild/javatesting.html
+53) 49 times on http://www.vogella.com/training/eclipse/eclipsenattable.html
+54) 49 times on http://www.vogella.com/training/eclipse/rcpjavaeespring.html
+55) 49 times on http://www.vogella.com/training/eclipse/eclipseplugin.html
+56) 49 times on http://www.vogella.com/support.html
+57) 23 times on http://site.mockito.org
+58) 22 times on http://blog.vogella.com
+59) 13 times on http://chiuki.github.io/advanced-android-espresso
+60) 11 times on https://github.com/mockito/mockito/blob/master/doc/release-notes/official.md
+61) 7 times on https://github.com/mockito/mockito/wiki/FAQ#what-are-the-limitations-of-mockito
+62) 6 times on https://github.com/mockito/mockito
+63) 5 times on https://mvnrepository.com/artifact/org.hamcrest/hamcrest-library
+64) 5 times on http://search.maven.org
+65) 5 times on https://twitter.com/share?url
+66) 4 times on https://github.com/jayway/powermock/wiki/MockitoUsage
+67) 4 times on https://github.com/mockito/mockito/wiki/Mockito-And-Private-Methods
+68) 4 times on https://www.facebook.com/sharer/sharer.php?u
+69) 3 times on http://martinfowler.com/articles/mocksArentStubs.html
+70) 3 times on http://download.eclipse.org/tools/orbit/downloads
+71) 2 times on http://silktide.com/cookieconsent
+
+7) mockito found: 3059 times
+1) 1726 times on https://github.com/mockito/mockito/blob/master/doc/release-notes/official.md
+2) 541 times on https://github.com/mockito/mockito
+3) 212 times on https://github.com/mockito/mockito/wiki/FAQ#what-are-the-limitations-of-mockito
+4) 186 times on http://www.vogella.com/tutorials/Mockito/article.html
+5) 180 times on https://github.com/mockito/mockito/wiki/Mockito-And-Private-Methods
+6) 153 times on http://site.mockito.org
+7) 59 times on https://dzone.com/refcardz/mockito
+8) 2 times on http://chiuki.github.io/advanced-android-espresso
+
+8) https found: 2135 times
+1) 819 times on https://github.com/mockito/mockito/blob/master/doc/release-notes/official.md
+2) 356 times on https://www.facebook.com/sharer/sharer.php?u
+3) 122 times on https://github.com/mockito/mockito
+4) 57 times on https://github.com/mockito/mockito/wiki/FAQ#what-are-the-limitations-of-mockito
+5) 53 times on https://github.com/mockito/mockito/wiki/Mockito-And-Private-Methods
+6) 51 times on https://dzone.com/refcardz/mockito
+7) 51 times on http://site.mockito.org
+8) 41 times on http://blog.vogella.com
+9) 40 times on https://github.com/jayway/powermock/wiki/MockitoUsage
+10) 30 times on http://www.vogella.com/tutorials/Mockito/article.html
+11) 22 times on http://download.eclipse.org/tools/orbit/downloads
+12) 20 times on http://chiuki.github.io/advanced-android-espresso
+13) 19 times on http://www.vogella.com/tutorials/JUnit/article.html
+14) 16 times on http://www.vogella.com/code/index.html
+15) 11 times on http://search.maven.org
+16) 11 times on https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700
+17) 10 times on http://www.vogella.com/license.html
+18) 10 times on http://www.vogella.com/legal.html
+19) 9 times on https://mvnrepository.com/artifact/org.hamcrest/hamcrest-library
+20) 9 times on http://www.vogella.com/books/index.html
+21) 9 times on http://www.vogella.com/search.html
+22) 9 times on http://www.vogella.com/faq.html
+23) 9 times on http://www.vogella.com/jobs
+24) 9 times on http://www.vogella.com/customers.html
+25) 9 times on http://www.vogella.com/people/index.html
+26) 9 times on http://www.vogella.com/aboutvogella.html
+27) 9 times on http://www.vogella.com/books/git.html
+28) 9 times on http://www.vogella.com/books/eclipsecontribution.html
+29) 9 times on http://www.vogella.com/books/eclipseide.html
+30) 9 times on http://www.vogella.com/books/eclipsercp.html
+31) 9 times on http://www.vogella.com/downloads
+32) 9 times on http://www.vogella.com/training/programming/index.html
+33) 9 times on http://www.vogella.com/training/android/index.html
+34) 9 times on http://www.vogella.com/training/eclipse/index.html
+35) 9 times on http://www.vogella.com/tutorials/designpattern.html
+36) 9 times on http://www.vogella.com/tutorials/algorithms.html
+37) 9 times on http://www.vogella.com/tutorials/google.html
+38) 9 times on http://www.vogella.com/tutorials/technology.html
+39) 9 times on http://www.vogella.com/tutorials/java.html
+40) 9 times on http://www.vogella.com/tutorials/web.html
+41) 9 times on http://www.vogella.com/tutorials/eclipse.html
+42) 9 times on http://www.vogella.com/tutorials/eclipseide.html
+43) 9 times on http://www.vogella.com/tutorials/android.html
+44) 9 times on http://www.vogella.com/contact.html
+45) 9 times on http://www.vogella.com/company
+46) 9 times on http://www.vogella.com/books
+47) 9 times on http://www.vogella.com/products
+48) 9 times on http://www.vogella.com/consulting
+49) 9 times on http://www.vogella.com/training
+50) 9 times on http://www.vogella.com/tutorials
+51) 9 times on http://www.vogella.com
+52) 8 times on https://twitter.com/share?url
+53) 5 times on http://www.vogella.com/training/online/android/androidprofessional.html
+54) 5 times on http://www.vogella.com/training/online/eclipse/eclipsercp.html
+55) 5 times on http://www.vogella.com/training/online/index.html
+56) 5 times on http://www.vogella.com/training/testbuild/gradle.html
+57) 5 times on http://www.vogella.com/training/testbuild/maven.html
+58) 5 times on http://www.vogella.com/training/programming/java.html
+59) 5 times on http://www.vogella.com/training/testbuild/javatesting.html
+60) 5 times on http://www.vogella.com/training/git/index.html
+61) 5 times on http://www.vogella.com/training/android/androidexpert.html
+62) 5 times on http://www.vogella.com/training/android/androidtesting.html
+63) 5 times on http://www.vogella.com/training/android/androidprofessional.html
+64) 5 times on http://www.vogella.com/training/eclipse/eclipsenattable.html
+65) 5 times on http://www.vogella.com/training/eclipse/rcpjavaeespring.html
+66) 5 times on http://www.vogella.com/training/eclipse/eclipseplugin.html
+67) 5 times on http://www.vogella.com/training/eclipse/eclipsercpmigration.html
+68) 5 times on http://www.vogella.com/training/eclipse/tycho.html
+69) 5 times on http://www.vogella.com/training/eclipse/eclipsercp.html
+70) 5 times on http://www.vogella.com/support.html
+71) 1 times on http://martinfowler.com/articles/mocksArentStubs.html
+
+9) code found: 2129 times
+1) 768 times on http://blog.vogella.com
+2) 367 times on http://www.vogella.com/tutorials/JUnit/article.html
+3) 358 times on http://www.vogella.com/tutorials/Mockito/article.html
+4) 296 times on https://dzone.com/refcardz/mockito
+5) 91 times on http://chiuki.github.io/advanced-android-espresso
+6) 49 times on https://github.com/mockito/mockito/wiki/FAQ#what-are-the-limitations-of-mockito
+7) 43 times on https://github.com/mockito/mockito/blob/master/doc/release-notes/official.md
+8) 40 times on http://site.mockito.org
+9) 15 times on https://github.com/mockito/mockito
+10) 8 times on https://github.com/mockito/mockito/wiki/Mockito-And-Private-Methods
+11) 5 times on https://github.com/jayway/powermock/wiki/MockitoUsage
+12) 5 times on http://www.vogella.com/training/git/index.html
+13) 4 times on http://www.vogella.com/books/eclipsecontribution.html
+14) 4 times on http://www.vogella.com/code/index.html
+15) 4 times on http://www.vogella.com/tutorials/technology.html
+16) 3 times on http://www.vogella.com/training/testbuild/gradle.html
+17) 3 times on http://www.vogella.com/training/eclipse/eclipsercpmigration.html
+18) 3 times on http://www.vogella.com/tutorials
+19) 3 times on http://www.vogella.com/A.tutorials,,_Mockito,,_coderay-asciidoctor.css+css,,_articles.css+css,,_header.css,Mcc.cIdgFRvgk2.css.pagespeed.cf.PcQrLqCF-_.css
+20) 3 times on https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css
+21) 2 times on http://www.vogella.com/license.html
+22) 2 times on http://search.maven.org
+23) 2 times on http://www.vogella.com/faq.html
+24) 2 times on http://www.vogella.com/training/android/androidtesting.html
+25) 2 times on http://www.vogella.com/training/eclipse/eclipseplugin.html
+26) 2 times on http://www.vogella.com/tutorials/eclipseide.html
+27) 2 times on http://www.vogella.com/consulting
+28) 2 times on http://www.vogella.com/training
+29) 2 times on http://www.vogella.com/legal.html
+30) 1 times on https://mvnrepository.com/artifact/org.hamcrest/hamcrest-library
+31) 1 times on http://www.vogella.com/books/index.html
+32) 1 times on http://www.vogella.com/search.html
+33) 1 times on http://www.vogella.com/jobs
+34) 1 times on http://www.vogella.com/customers.html
+35) 1 times on http://www.vogella.com/people/index.html
+36) 1 times on http://www.vogella.com/aboutvogella.html
+37) 1 times on http://www.vogella.com/books/git.html
+38) 1 times on http://www.vogella.com/books/eclipseide.html
+39) 1 times on http://www.vogella.com/books/eclipsercp.html
+40) 1 times on http://www.vogella.com/downloads
+41) 1 times on http://www.vogella.com/training/online/android/androidprofessional.html
+42) 1 times on http://www.vogella.com/training/online/eclipse/eclipsercp.html
+43) 1 times on http://www.vogella.com/training/online/index.html
+44) 1 times on http://www.vogella.com/training/testbuild/maven.html
+45) 1 times on http://www.vogella.com/training/programming/java.html
+46) 1 times on http://www.vogella.com/training/testbuild/javatesting.html
+47) 1 times on http://www.vogella.com/training/programming/index.html
+48) 1 times on http://www.vogella.com/training/android/androidexpert.html
+49) 1 times on http://www.vogella.com/training/android/androidprofessional.html
+50) 1 times on http://www.vogella.com/training/android/index.html
+51) 1 times on http://www.vogella.com/training/eclipse/eclipsenattable.html
+52) 1 times on http://www.vogella.com/training/eclipse/rcpjavaeespring.html
+53) 1 times on http://www.vogella.com/training/eclipse/tycho.html
+54) 1 times on http://www.vogella.com/training/eclipse/eclipsercp.html
+55) 1 times on http://www.vogella.com/training/eclipse/index.html
+56) 1 times on http://www.vogella.com/tutorials/designpattern.html
+57) 1 times on http://www.vogella.com/tutorials/algorithms.html
+58) 1 times on http://www.vogella.com/tutorials/google.html
+59) 1 times on http://www.vogella.com/tutorials/java.html
+60) 1 times on http://www.vogella.com/tutorials/web.html
+61) 1 times on http://www.vogella.com/tutorials/eclipse.html
+62) 1 times on http://www.vogella.com/tutorials/android.html
+63) 1 times on http://www.vogella.com/contact.html
+64) 1 times on http://www.vogella.com/support.html
+65) 1 times on http://www.vogella.com/company
+66) 1 times on http://www.vogella.com/books
+67) 1 times on http://www.vogella.com/products
+68) 1 times on http://www.vogella.com
+
+10) type found: 2062 times
+1) 340 times on https://www.facebook.com/sharer/sharer.php?u
+2) 232 times on http://www.vogella.com/tutorials/Mockito/article.html
+3) 162 times on http://www.vogella.com/tutorials/JUnit/article.html
+4) 161 times on https://dzone.com/refcardz/mockito
+5) 46 times on http://blog.vogella.com
+6) 36 times on https://github.com/mockito/mockito/blob/master/doc/release-notes/official.md
+7) 30 times on http://search.maven.org
+8) 27 times on http://www.vogella.com/training
+9) 25 times on https://github.com/mockito/mockito
+10) 23 times on http://www.vogella.com/training/online/index.html
+11) 22 times on http://www.vogella.com/training/online/android/androidprofessional.html
+12) 22 times on http://www.vogella.com/training/online/eclipse/eclipsercp.html
+13) 21 times on http://www.vogella.com/books/git.html
+14) 21 times on http://www.vogella.com/books/eclipsecontribution.html
+15) 21 times on http://www.vogella.com/books/eclipseide.html
+16) 21 times on http://www.vogella.com/books/eclipsercp.html
+17) 21 times on http://www.vogella.com/training/testbuild/gradle.html
+18) 21 times on http://www.vogella.com/training/testbuild/maven.html
+19) 21 times on http://www.vogella.com/training/programming/java.html
+20) 21 times on http://www.vogella.com/training/testbuild/javatesting.html
+21) 21 times on http://www.vogella.com/training/programming/index.html
+22) 19 times on http://www.vogella.com/training/git/index.html
+23) 19 times on http://www.vogella.com/training/android/androidexpert.html
+24) 19 times on http://www.vogella.com/training/android/androidtesting.html
+25) 19 times on http://www.vogella.com/training/android/androidprofessional.html
+26) 19 times on http://www.vogella.com/training/android/index.html
+27) 19 times on http://www.vogella.com/training/eclipse/eclipsenattable.html
+28) 19 times on http://www.vogella.com/training/eclipse/rcpjavaeespring.html
+29) 19 times on http://www.vogella.com/training/eclipse/eclipseplugin.html
+30) 19 times on http://www.vogella.com/training/eclipse/eclipsercpmigration.html
+31) 19 times on http://www.vogella.com/training/eclipse/tycho.html
+32) 19 times on http://www.vogella.com/training/eclipse/eclipsercp.html
+33) 19 times on http://www.vogella.com/training/eclipse/index.html
+34) 17 times on http://www.vogella.com/search.html
+35) 17 times on http://www.vogella.com/legal.html
+36) 16 times on https://twitter.com/share?url
+37) 15 times on http://www.vogella.com/license.html
+38) 15 times on https://github.com/jayway/powermock/wiki/MockitoUsage
+39) 15 times on https://github.com/mockito/mockito/wiki/FAQ#what-are-the-limitations-of-mockito
+40) 15 times on https://github.com/mockito/mockito/wiki/Mockito-And-Private-Methods
+41) 15 times on http://www.vogella.com/books/index.html
+42) 15 times on http://www.vogella.com/faq.html
+43) 15 times on http://www.vogella.com/jobs
+44) 15 times on http://www.vogella.com/customers.html
+45) 15 times on http://www.vogella.com/people/index.html
+46) 15 times on http://www.vogella.com/aboutvogella.html
+47) 15 times on http://www.vogella.com/downloads
+48) 15 times on http://www.vogella.com/code/index.html
+49) 15 times on http://www.vogella.com/tutorials/designpattern.html
+50) 15 times on http://www.vogella.com/tutorials/algorithms.html
+51) 15 times on http://www.vogella.com/tutorials/google.html
+52) 15 times on http://www.vogella.com/tutorials/technology.html
+53) 15 times on http://www.vogella.com/tutorials/java.html
+54) 15 times on http://www.vogella.com/tutorials/web.html
+55) 15 times on http://www.vogella.com/tutorials/eclipse.html
+56) 15 times on http://www.vogella.com/tutorials/eclipseide.html
+57) 15 times on http://www.vogella.com/tutorials/android.html
+58) 15 times on http://www.vogella.com/contact.html
+59) 15 times on http://www.vogella.com/support.html
+60) 15 times on http://www.vogella.com/company
+61) 15 times on http://www.vogella.com/books
+62) 15 times on http://www.vogella.com/products
+63) 15 times on http://www.vogella.com/consulting
+64) 15 times on http://www.vogella.com/tutorials
+65) 15 times on http://www.vogella.com
+66) 13 times on https://mvnrepository.com/artifact/org.hamcrest/hamcrest-library
+67) 6 times on http://download.eclipse.org/tools/orbit/downloads
+68) 5 times on http://chiuki.github.io/advanced-android-espresso
+69) 4 times on http://www.vogella.com/img/icons/burger.svg
+70) 2 times on http://site.mockito.org
+71) 2 times on http://www.vogella.com/A.tutorials,,_Mockito,,_coderay-asciidoctor.css+css,,_articles.css+css,,_header.css,Mcc.cIdgFRvgk2.css.pagespeed.cf.PcQrLqCF-_.css
+72) 1 times on http://www.vogella.com/img/logo/index_logo.svg
+73) 1 times on https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css
+
+
+Word mockito found: 3059 times
+1) 1726 times on https://github.com/mockito/mockito/blob/master/doc/release-notes/official.md
+2) 541 times on https://github.com/mockito/mockito
+3) 212 times on https://github.com/mockito/mockito/wiki/FAQ#what-are-the-limitations-of-mockito
+4) 186 times on http://www.vogella.com/tutorials/Mockito/article.html
+5) 180 times on https://github.com/mockito/mockito/wiki/Mockito-And-Private-Methods
+6) 153 times on http://site.mockito.org
+7) 59 times on https://dzone.com/refcardz/mockito
+8) 2 times on http://chiuki.github.io/advanced-android-espresso
+
+Word with max frequency:
+
+Word class found: 9805 times
+1) 2078 times on http://www.vogella.com/tutorials/Mockito/article.html
+2) 1750 times on http://www.vogella.com/tutorials/JUnit/article.html
+3) 1224 times on https://dzone.com/refcardz/mockito
+4) 842 times on https://github.com/mockito/mockito
+5) 795 times on https://github.com/mockito/mockito/blob/master/doc/release-notes/official.md
+6) 285 times on http://blog.vogella.com
+7) 257 times on https://github.com/mockito/mockito/wiki/FAQ#what-are-the-limitations-of-mockito
+8) 201 times on http://download.eclipse.org/tools/orbit/downloads
+9) 199 times on https://github.com/jayway/powermock/wiki/MockitoUsage
+10) 193 times on https://github.com/mockito/mockito/wiki/Mockito-And-Private-Methods
+11) 181 times on http://site.mockito.org
+12) 120 times on http://chiuki.github.io/advanced-android-espresso
+13) 70 times on http://search.maven.org
+14) 57 times on http://www.vogella.com/tutorials
+15) 49 times on http://www.vogella.com/training
+16) 47 times on http://www.vogella.com/training/android/androidprofessional.html
+17) 47 times on http://www.vogella.com/training/eclipse/eclipsercp.html
+18) 44 times on https://mvnrepository.com/artifact/org.hamcrest/hamcrest-library
+19) 43 times on http://www.vogella.com/tutorials/eclipse.html
+20) 41 times on http://www.vogella.com/tutorials/android.html
+21) 39 times on http://www.vogella.com
+22) 37 times on http://www.vogella.com/people/index.html
+23) 37 times on http://www.vogella.com/code/index.html
+24) 36 times on http://www.vogella.com/training/programming/index.html
+25) 36 times on http://www.vogella.com/company
+26) 35 times on http://www.vogella.com/training/eclipse/eclipseplugin.html
+27) 35 times on http://www.vogella.com/tutorials/technology.html
+28) 34 times on http://www.vogella.com/products
+29) 32 times on http://www.vogella.com/books/index.html
+30) 32 times on http://www.vogella.com/books
+31) 31 times on https://www.facebook.com/sharer/sharer.php?u
+32) 30 times on http://www.vogella.com/training/online/index.html
+33) 30 times on http://www.vogella.com/training/testbuild/gradle.html
+34) 29 times on http://www.vogella.com/jobs
+35) 29 times on http://www.vogella.com/tutorials/java.html
+36) 29 times on http://www.vogella.com/tutorials/web.html
+37) 28 times on http://www.vogella.com/training/android/androidexpert.html
+38) 28 times on http://www.vogella.com/training/android/androidtesting.html
+39) 28 times on http://www.vogella.com/training/android/index.html
+40) 28 times on http://www.vogella.com/training/eclipse/tycho.html
+41) 28 times on http://www.vogella.com/training/eclipse/index.html
+42) 28 times on http://www.vogella.com/consulting
+43) 27 times on http://www.vogella.com/training/git/index.html
+44) 27 times on http://www.vogella.com/training/eclipse/eclipsercpmigration.html
+45) 26 times on http://www.vogella.com/training/eclipse/eclipsenattable.html
+46) 26 times on http://www.vogella.com/training/eclipse/rcpjavaeespring.html
+47) 25 times on http://www.vogella.com/books/git.html
+48) 25 times on http://www.vogella.com/books/eclipseide.html
+49) 25 times on http://www.vogella.com/books/eclipsercp.html
+50) 25 times on http://www.vogella.com/tutorials/eclipseide.html
+51) 24 times on http://www.vogella.com/books/eclipsecontribution.html
+52) 24 times on http://www.vogella.com/training/programming/java.html
+53) 24 times on http://www.vogella.com/contact.html
+54) 23 times on http://www.vogella.com/customers.html
+55) 23 times on http://www.vogella.com/training/online/android/androidprofessional.html
+56) 23 times on http://www.vogella.com/training/online/eclipse/eclipsercp.html
+57) 23 times on http://www.vogella.com/tutorials/algorithms.html
+58) 23 times on http://www.vogella.com/tutorials/google.html
+59) 21 times on http://www.vogella.com/tutorials/designpattern.html
+60) 21 times on https://twitter.com/share?url
+61) 20 times on http://www.vogella.com/downloads
+62) 19 times on http://www.vogella.com/training/testbuild/maven.html
+63) 19 times on http://www.vogella.com/training/testbuild/javatesting.html
+64) 18 times on http://www.vogella.com/aboutvogella.html
+65) 15 times on http://www.vogella.com/support.html
+66) 15 times on http://www.vogella.com/legal.html
+67) 14 times on http://www.vogella.com/faq.html
+68) 13 times on http://www.vogella.com/license.html
+69) 12 times on http://www.vogella.com/search.html
+70) 3 times on http://www.vogella.com/A.tutorials,,_Mockito,,_coderay-asciidoctor.css+css,,_articles.css+css,,_header.css,Mcc.cIdgFRvgk2.css.pagespeed.cf.PcQrLqCF-_.css
+
+Word with max URL counts
+
+Word http found: 6291 times
+1) 334 times on http://blog.vogella.com
+2) 210 times on http://www.vogella.com/tutorials/Mockito/article.html
+3) 173 times on http://www.vogella.com/tutorials/eclipse.html
+4) 168 times on http://www.vogella.com/tutorials/android.html
+5) 134 times on http://www.vogella.com/tutorials/java.html
+6) 127 times on http://www.vogella.com/books/eclipsercp.html
+7) 126 times on http://www.vogella.com/books/git.html
+8) 126 times on http://www.vogella.com/books/eclipseide.html
+9) 126 times on http://www.vogella.com/tutorials/technology.html
+10) 119 times on http://www.vogella.com/tutorials/web.html
+11) 119 times on http://www.vogella.com/training
+12) 114 times on http://www.vogella.com/books/eclipsecontribution.html
+13) 113 times on http://www.vogella.com/tutorials/eclipseide.html
+14) 112 times on http://www.vogella.com/tutorials/algorithms.html
+15) 110 times on http://www.vogella.com/people/index.html
+16) 106 times on http://www.vogella.com/tutorials/JUnit/article.html
+17) 105 times on http://www.vogella.com/tutorials/designpattern.html
+18) 105 times on http://www.vogella.com/tutorials/google.html
+19) 104 times on http://www.vogella.com/products
+20) 103 times on http://www.vogella.com/faq.html
+21) 103 times on http://www.vogella.com/customers.html
+22) 102 times on http://www.vogella.com/training/programming/index.html
+23) 102 times on http://www.vogella.com/training/android/index.html
+24) 102 times on http://www.vogella.com/training/eclipse/index.html
+25) 102 times on http://www.vogella.com
+26) 101 times on http://www.vogella.com/jobs
+27) 101 times on http://www.vogella.com/aboutvogella.html
+28) 101 times on http://www.vogella.com/company
+29) 100 times on http://www.vogella.com/books/index.html
+30) 100 times on http://www.vogella.com/books
+31) 100 times on http://www.vogella.com/legal.html
+32) 99 times on http://www.vogella.com/tutorials
+33) 98 times on http://www.vogella.com/license.html
+34) 97 times on http://www.vogella.com/search.html
+35) 96 times on http://www.vogella.com/downloads
+36) 96 times on http://www.vogella.com/code/index.html
+37) 96 times on http://www.vogella.com/contact.html
+38) 96 times on http://www.vogella.com/consulting
+39) 89 times on http://www.vogella.com/training/online/index.html
+40) 88 times on http://www.vogella.com/training/online/android/androidprofessional.html
+41) 88 times on http://www.vogella.com/training/online/eclipse/eclipsercp.html
+42) 86 times on http://www.vogella.com/training/eclipse/eclipsercp.html
+43) 85 times on http://www.vogella.com/training/android/androidprofessional.html
+44) 84 times on http://www.vogella.com/training/git/index.html
+45) 84 times on http://www.vogella.com/training/android/androidexpert.html
+46) 84 times on http://www.vogella.com/training/android/androidtesting.html
+47) 84 times on http://www.vogella.com/training/eclipse/eclipsercpmigration.html
+48) 84 times on http://www.vogella.com/training/eclipse/tycho.html
+49) 79 times on http://www.vogella.com/training/eclipse/eclipsenattable.html
+50) 79 times on http://www.vogella.com/training/eclipse/rcpjavaeespring.html
+51) 79 times on http://www.vogella.com/training/eclipse/eclipseplugin.html
+52) 78 times on http://www.vogella.com/training/testbuild/gradle.html
+53) 78 times on http://www.vogella.com/training/testbuild/maven.html
+54) 78 times on http://www.vogella.com/training/programming/java.html
+55) 78 times on http://www.vogella.com/training/testbuild/javatesting.html
+56) 75 times on http://www.vogella.com/support.html
+57) 55 times on https://github.com/mockito/mockito/blob/master/doc/release-notes/official.md
+58) 52 times on http://download.eclipse.org/tools/orbit/downloads
+59) 43 times on http://site.mockito.org
+60) 24 times on http://chiuki.github.io/advanced-android-espresso
+61) 22 times on https://github.com/mockito/mockito
+62) 22 times on https://dzone.com/refcardz/mockito
+63) 16 times on https://github.com/mockito/mockito/wiki/FAQ#what-are-the-limitations-of-mockito
+64) 11 times on http://search.maven.org
+65) 9 times on http://www.vogella.com/img/logo/index_logo.svg
+66) 8 times on https://github.com/jayway/powermock/wiki/MockitoUsage
+67) 6 times on https://github.com/mockito/mockito/wiki/Mockito-And-Private-Methods
+68) 4 times on http://www.vogella.com/img/icons/burger.svg
+69) 2 times on https://mvnrepository.com/artifact/org.hamcrest/hamcrest-library
+70) 2 times on http://www.vogella.com/files/eclipse_cheatsheet.pdf
+71) 2 times on https://twitter.com/share?url
+72) 2 times on https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css
+73) 1 times on http://www.vogella.com/img/common/sourcecode.svg
+74) 1 times on http://www.vogella.com/img/common/license_new.svg
+75) 1 times on http://www.vogella.com/img/common/discussions.svg
+76) 1 times on http://www.vogella.com/img/common/donate.svg
+77) 1 times on https://www.facebook.com/sharer/sharer.php?u
+
+Process finished with exit code 0
