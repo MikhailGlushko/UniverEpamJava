@@ -1,0 +1,45 @@
+get data from http://api.openweathermap.org/data/2.5/weather?q=Kiev&appid=76f37caefb4a0de9cade877a11f5138e&mode=xml&units=metric
+Відправка нотифікацій клієнтам
+Відрпавляємо дані клієнту 0 ua.epam.weatherstation.station.WeatherStation@6f496d9f
+Отнимано нові дані: Weather{Temperature=-1.34 metric, Humidity=92 %, Pressure=1009 hPa, DateTime=2017-11-20T21:53:12.044}
+Відрпавляємо дані клієнту 1 ua.epam.weatherstation.station.WeatherStation@723279cf
+Отнимано нові дані: Weather{Temperature=-1.34 metric, Humidity=92 %, Pressure=1009 hPa, DateTime=2017-11-20T21:53:12.044}
+Відрпавляємо дані клієнту 2 ua.epam.weatherstation.station.WeatherStation@10f87f48
+Отнимано нові дані: Weather{Temperature=-1.34 metric, Humidity=92 %, Pressure=1009 hPa, DateTime=2017-11-20T21:53:12.044}
+get data from http://api.openweathermap.org/data/2.5/weather?q=Kiev&appid=76f37caefb4a0de9cade877a11f5138e&mode=xml&units=metric
+get data from http://api.openweathermap.org/data/2.5/weather?q=Kiev&appid=76f37caefb4a0de9cade877a11f5138e&mode=xml&units=metric
+get data from http://api.openweathermap.org/data/2.5/weather?q=Kiev&appid=76f37caefb4a0de9cade877a11f5138e&mode=xml&units=metric
+get data from http://api.openweathermap.org/data/2.5/weather?q=Kiev&appid=76f37caefb4a0de9cade877a11f5138e&mode=xml&units=metric
+get data from http://api.openweathermap.org/data/2.5/weather?q=Kiev&appid=76f37caefb4a0de9cade877a11f5138e&mode=xml&units=metric
+get data from http://api.openweathermap.org/data/2.5/weather?q=Kiev&appid=76f37caefb4a0de9cade877a11f5138e&mode=xml&units=metric
+get data from http://api.openweathermap.org/data/2.5/weather?q=Kiev&appid=76f37caefb4a0de9cade877a11f5138e&mode=xml&units=metric
+get data from http://api.openweathermap.org/data/2.5/weather?q=Kiev&appid=76f37caefb4a0de9cade877a11f5138e&mode=xml&units=metric
+get data from http://api.openweathermap.org/data/2.5/weather?q=Kiev&appid=76f37caefb4a0de9cade877a11f5138e&mode=xml&units=metric
+get data from http://api.openweathermap.org/data/2.5/weather?q=Kiev&appid=76f37caefb4a0de9cade877a11f5138e&mode=xml&units=metric
+get data from http://api.openweathermap.org/data/2.5/weather?q=Kiev&appid=76f37caefb4a0de9cade877a11f5138e&mode=xml&units=metric
+get data from http://api.openweathermap.org/data/2.5/weather?q=Kiev&appid=76f37caefb4a0de9cade877a11f5138e&mode=xml&units=metric
+get data from http://api.openweathermap.org/data/2.5/weather?q=Kiev&appid=76f37caefb4a0de9cade877a11f5138e&mode=xml&units=metric
+get data from http://api.openweathermap.org/data/2.5/weather?q=Kiev&appid=76f37caefb4a0de9cade877a11f5138e&mode=xml&units=metric
+get data from http://api.openweathermap.org/data/2.5/weather?q=Kiev&appid=76f37caefb4a0de9cade877a11f5138e&mode=xml&units=metric
+get data from http://api.openweathermap.org/data/2.5/weather?q=Kiev&appid=76f37caefb4a0de9cade877a11f5138e&mode=xml&units=metric
+get data from http://api.openweathermap.org/data/2.5/weather?q=Kiev&appid=76f37caefb4a0de9cade877a11f5138e&mode=xml&units=metric
+get data from http://api.openweathermap.org/data/2.5/weather?q=Kiev&appid=76f37caefb4a0de9cade877a11f5138e&mode=xml&units=metric
+get data from http://api.openweathermap.org/data/2.5/weather?q=Kiev&appid=76f37caefb4a0de9cade877a11f5138e&mode=xml&units=metric
+get data from http://api.openweathermap.org/data/2.5/weather?q=Kiev&appid=76f37caefb4a0de9cade877a11f5138e&mode=xml&units=metric
+Відправка нотифікацій клієнтам
+Відрпавляємо дані клієнту 0 ua.epam.weatherstation.station.WeatherStation@6f496d9f
+Отнимано нові дані: Weather{Temperature=-1.98 metric, Humidity=92 %, Pressure=1009 hPa, DateTime=2017-11-20T22:03:15.079}
+Відрпавляємо дані клієнту 1 ua.epam.weatherstation.station.WeatherStation@723279cf
+Отнимано нові дані: Weather{Temperature=-1.98 metric, Humidity=92 %, Pressure=1009 hPa, DateTime=2017-11-20T22:03:15.079}
+Відрпавляємо дані клієнту 2 ua.epam.weatherstation.station.WeatherStation@10f87f48
+Отнимано нові дані: Weather{Temperature=-1.98 metric, Humidity=92 %, Pressure=1009 hPa, DateTime=2017-11-20T22:03:15.079}
+get data from http://api.openweathermap.org/data/2.5/weather?q=Kiev&appid=76f37caefb4a0de9cade877a11f5138e&mode=xml&units=metric
+get data from http://api.openweathermap.org/data/2.5/weather?q=Kiev&appid=76f37caefb4a0de9cade877a11f5138e&mode=xml&units=metric
+get data from http://api.openweathermap.org/data/2.5/weather?q=Kiev&appid=76f37caefb4a0de9cade877a11f5138e&mode=xml&units=metric
+get data from http://api.openweathermap.org/data/2.5/weather?q=Kiev&appid=76f37caefb4a0de9cade877a11f5138e&mode=xml&units=metric
+get data from http://api.openweathermap.org/data/2.5/weather?q=Kiev&appid=76f37caefb4a0de9cade877a11f5138e&mode=xml&units=metric
+get data from http://api.openweathermap.org/data/2.5/weather?q=Kiev&appid=76f37caefb4a0de9cade877a11f5138e&mode=xml&units=metric
+get data from http://api.openweathermap.org/data/2.5/weather?q=Kiev&appid=76f37caefb4a0de9cade877a11f5138e&mode=xml&units=metric
+get data from http://api.openweathermap.org/data/2.5/weather?q=Kiev&appid=76f37caefb4a0de9cade877a11f5138e&mode=xml&units=metric
+get data from http://api.openweathermap.org/data/2.5/weather?q=Kiev&appid=76f37caefb4a0de9cade877a11f5138e&mode=xml&units=metric
+get data from http://api.openweathermap.org/data/2.5/weather?q=Kiev&appid=76f37caefb4a0de9cade877a11f5138e&mode=xml&units=metric
