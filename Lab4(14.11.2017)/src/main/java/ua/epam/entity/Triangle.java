@@ -1,6 +1,8 @@
 package ua.epam.entity;
 
-public class Triangle extends Figure implements Cloneable {
+import java.io.Serializable;
+
+public class Triangle extends Figure implements Cloneable, Serializable {
     private Point apexA, apexB, apexC;
     private Line sideAB, sideAC, sideBC;
     private double perimetr;
@@ -137,5 +139,9 @@ public class Triangle extends Figure implements Cloneable {
     @Override
     public String toString() {
         return "Triangle{" + "apexA=" + apexA + ", apexB=" + apexB + ", apexC=" + apexC + '}';
+    }
+
+    public String _toString(){
+        return super.toString();
     }
 }

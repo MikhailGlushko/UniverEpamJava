@@ -1,6 +1,8 @@
 package ua.epam.entity;
 
-public class Point extends Figure implements Cloneable {
+import java.io.Serializable;
+
+public class Point extends Figure implements Cloneable, Serializable {
     private int x;
     private int y;
 
@@ -47,6 +49,10 @@ public class Point extends Figure implements Cloneable {
     @Override
     public String toString() {
         return "Point{" + "x=" + getX() + ", y=" + getY() + '}';
+    }
+
+    public String _toString(){
+        return super.toString();
     }
 
     @Override

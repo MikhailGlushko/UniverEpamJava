@@ -1,6 +1,8 @@
 package ua.epam.entity;
 
-public class Line extends Figure implements Cloneable{
+import java.io.Serializable;
+
+public class Line extends Figure implements Cloneable, Serializable{
     private Point beg;
     private Point end;
 
@@ -11,7 +13,9 @@ public class Line extends Figure implements Cloneable{
      * @throws IllegalArgumentException - исключение если одна из точек == null или точки равны
      */
     public Line(Point beg, Point end) throws IllegalArgumentException{
-        this(beg.getX(),beg.getY(), end.getY(), end.getY());
+        //this(beg.getX(),beg.getY(), end.getY(), end.getY());
+        this.beg = beg;
+        this.end = end;
     }
 
     /**
@@ -82,5 +86,9 @@ public class Line extends Figure implements Cloneable{
         int result = beg != null ? beg.hashCode() : 0;
         result = 31 * result + (end != null ? end.hashCode() : 0);
         return result;
+    }
+
+    public String _toString(){
+        return super.toString();
     }
 }
