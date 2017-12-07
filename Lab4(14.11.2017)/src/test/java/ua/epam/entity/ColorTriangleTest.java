@@ -6,7 +6,7 @@ import static org.junit.Assert.*;
 
 public class ColorTriangleTest {
     @Test
-    public void setColor() throws Exception {
+    public void setColor() {
         Point a = new Point(1,1);
         Point b = new Point(1,-1);
         Point c = new Point(-2,-2);
@@ -24,7 +24,7 @@ public class ColorTriangleTest {
     }
 
     @Test(expected = IllegalArgumentException.class)
-    public void setWrongColor() throws Exception {
+    public void setWrongColor() {
         Point a = new Point(1,1);
         Point b = new Point(1,-1);
         Point c = new Point(-2,-2);
@@ -36,7 +36,7 @@ public class ColorTriangleTest {
     }
 
     @Test(expected = IllegalArgumentException.class)
-    public void setWrongColorWithException() throws Exception {
+    public void setWrongColorWithException() {
         Point a = new Point(1,1);
         Point b = new Point(1,-1);
         Point c = new Point(-2,-2);

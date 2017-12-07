@@ -34,7 +34,7 @@ public class TestVehicle04 {
             }
             if(vehicle instanceof MoveAble){
                 moveable[idx3++] = vehicle;
-            };
+            }
         }
         System.out.println("\nЩо вміють літати");
         for (int i = 0; i < flyable.length; i++) {

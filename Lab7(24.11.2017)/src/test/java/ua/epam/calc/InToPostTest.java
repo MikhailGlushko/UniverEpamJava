@@ -48,7 +48,7 @@ public class InToPostTest {
     }
 
     @Test
-    public void doTrans() throws Exception {
+    public void doTrans() {
         inToPost = new InToPost(value);
         result = this.inToPost.doTrans().trim();
         System.out.println(value + " --> " +result+" == "+expected);

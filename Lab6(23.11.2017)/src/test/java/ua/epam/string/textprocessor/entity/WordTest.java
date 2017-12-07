@@ -15,7 +15,7 @@ public class WordTest {
     }
 
     @Test
-    public void _toString() throws Exception {
+    public void _toString() {
         System.out.println(element);
     }
 

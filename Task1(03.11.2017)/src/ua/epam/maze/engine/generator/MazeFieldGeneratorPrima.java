@@ -158,9 +158,9 @@ public class MazeFieldGeneratorPrima implements MazeFieldGenerator {
         int oldValue = first;
 
         Stack<Point> newStack = map.get(second);
-        if(newStack==null) return;;
+        if(newStack==null) return;
         Stack<Point> oldStack = map.get(first);
-        if(oldStack==null) return;;
+        if(oldStack==null) return;
 
         if (map.get(first).size() >= map.get(second).size()) {
             oldStack = map.get(second);

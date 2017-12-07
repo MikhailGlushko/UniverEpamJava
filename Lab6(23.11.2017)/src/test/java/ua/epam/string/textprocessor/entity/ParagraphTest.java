@@ -20,12 +20,12 @@ public class ParagraphTest {
         System.out.println(element.toString());
     }
     @Test
-    public void getUniqueList() throws Exception {
+    public void getUniqueList() {
         System.out.println(element.getUniqueList());
     }
 
     @Test
-    public void getList() throws Exception {
+    public void getList() {
         System.out.println(element.getList());
     }
 

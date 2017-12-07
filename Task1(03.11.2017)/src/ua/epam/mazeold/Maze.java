@@ -43,7 +43,7 @@ class Maze {
      *
      * @throws Exception
      */
-    public void makeMaze() throws Exception {
+    public void makeMaze() {
         int location = width * heigth;
         while (location > 1) { // потрібно прибрати n*n-1 стіну
             // вибираємо випадкову стіну між двома сусідніми клітинками, вертикальну чи горизонтальну

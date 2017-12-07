@@ -14,7 +14,7 @@ public class StackTest {
     }
 
     @Test
-    public void push() throws Exception {
+    public void push() {
         stack.push("1");
         stack.push("+");
         int size = stack.size();
@@ -23,7 +23,7 @@ public class StackTest {
     }
 
     @Test
-    public void pop() throws Exception {
+    public void pop() {
         stack.push("1");
         String result = stack.pop();
         String required = "1";
@@ -34,7 +34,7 @@ public class StackTest {
     }
 
     @Test
-    public void peek() throws Exception {
+    public void peek() {
         stack.push("1");
         String result = stack.peek();
         String required = "1";
@@ -45,28 +45,28 @@ public class StackTest {
     }
 
     @Test
-    public void isEmpty() throws Exception {
+    public void isEmpty() {
         boolean empty = stack.isEmpty();
         boolean required = true;
         assertEquals(required,empty);
     }
 
     @Test
-    public void isFull() throws Exception {
+    public void isFull() {
         boolean full = stack.isFull();
         boolean required = false;
         assertEquals(required,full);
     }
 
     @Test
-    public void size() throws Exception {
+    public void size() {
         int size = stack.size();
         int required2 = 0;
         assertEquals(required2,size);
     }
 
     @Test
-    public void peekN() throws Exception {
+    public void peekN() {
         stack.push("1");
         stack.push("2");
         String result = stack.peekN(0);
@@ -75,11 +75,11 @@ public class StackTest {
     }
 
     @Test
-    public void displayStack() throws Exception {
+    public void displayStack() {
         stack.push("1");
         stack.push("2");
         stack.push("+");
-        stack.displayStack("");;
+        stack.displayStack("");
     }
 
 }

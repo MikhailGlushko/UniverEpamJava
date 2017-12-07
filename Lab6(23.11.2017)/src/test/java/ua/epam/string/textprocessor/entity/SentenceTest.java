@@ -15,12 +15,12 @@ public class SentenceTest {
     }
 
     @Test
-    public void getList() throws Exception {
+    public void getList() {
         System.out.println(element.getList());
     }
 
     @Test
-    public void _toString() throws Exception {
+    public void _toString() {
         System.out.println(element.toString());
     }
 

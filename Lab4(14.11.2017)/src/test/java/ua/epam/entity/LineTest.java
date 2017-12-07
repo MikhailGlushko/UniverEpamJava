@@ -28,7 +28,7 @@ public class LineTest {
     }
 
     @Test
-    public void length() throws Exception {
+    public void length() {
         Line a = new Line(1,1,4 ,4);
         double result = a.length();
         double expected = 4.2426;
@@ -36,7 +36,7 @@ public class LineTest {
     }
 
     @Test
-    public void cloneLine() throws Exception {
+    public void cloneLine() {
         Line l1 = new Line(1,2,3,4);
         Line l2 = (Line)l1.clone();
         boolean result   = l1.equals(l2);
@@ -48,7 +48,7 @@ public class LineTest {
     }
 
     @Test
-    public void equals() throws Exception {
+    public void equals() {
         Line l1 = new Line(1,1,2,2);
         Line l2 = new Line(1,1,2,2);
         Line l3 = new Line(1,2,3,4);

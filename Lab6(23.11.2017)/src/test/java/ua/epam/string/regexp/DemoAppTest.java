@@ -11,7 +11,7 @@ import static org.junit.Assert.*;
 
 public class DemoAppTest {
     @Test
-    public void readData() throws Exception {
+    public void readData() {
         String source = "coracle.com\nhttp://www.oracle.com\nmail.ru\nhttps://www.oracle.com:8080/download/index.html?id=12&p=3#begin";
         InputStream stream = new ByteArrayInputStream(source.getBytes());
         URLChecker urlChecker = new URLChecker();

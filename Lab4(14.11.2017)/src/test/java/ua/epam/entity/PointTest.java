@@ -6,7 +6,7 @@ import static org.junit.Assert.*;
 
 public class PointTest {
     @Test
-    public void threePointsOnSameeLine() throws Exception {
+    public void threePointsOnSameeLine() {
         Point a = new Point(1,1);
         Point b = new Point(2,2);
         Point c = new Point(-1,-1);
@@ -21,7 +21,7 @@ public class PointTest {
     }
 
     @Test
-    public void clonePoint() throws Exception {
+    public void clonePoint() {
         Point a = new Point(1,1);
         Point b = (Point) a.clone();
         boolean expected = true;
@@ -34,7 +34,7 @@ public class PointTest {
     }
 
     @Test
-    public void equals() throws Exception {
+    public void equals() {
         Point a = new Point(1,1);
         Point b = (Point) a.clone();
         boolean expected = true;

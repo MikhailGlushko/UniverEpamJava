@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 
 public class FigureTest {
     @Test
-    public void compareTo() throws Exception {
+    public void compareTo() {
 
         FigureFactory factory = new FigureFactory();
         Figure[] figures = new Figure[20];

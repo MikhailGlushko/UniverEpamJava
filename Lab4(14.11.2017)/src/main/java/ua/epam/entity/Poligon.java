@@ -1,9 +1,10 @@
 package ua.epam.entity;
 
+import java.io.Serializable;
 import java.util.Arrays;
 import java.util.Set;
 
-public class Poligon extends Figure{
+public class Poligon extends Figure implements Serializable{
     private Point[] points;
 
     /**

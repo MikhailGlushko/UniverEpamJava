@@ -1,10 +1,11 @@
 package ua.epam.entity;
 
+import java.io.Serializable;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-abstract public class Figure implements Comparable<Figure>{
+abstract public class Figure implements Comparable<Figure>, Serializable{
 
     @Override
     public int compareTo(Figure other) {

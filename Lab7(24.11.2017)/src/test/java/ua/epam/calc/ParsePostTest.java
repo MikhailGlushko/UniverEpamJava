@@ -46,7 +46,7 @@ public class ParsePostTest {
     }
 
     @Test
-    public void doParse() throws Exception {
+    public void doParse() {
         parsePost = new ParsePost(value);
         double result = parsePost.doParse();
         System.out.println(value + " --> " +result+" == "+expected);

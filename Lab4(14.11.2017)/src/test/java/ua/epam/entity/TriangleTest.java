@@ -27,7 +27,7 @@ public class TriangleTest {
     }
 
     @Test
-    public void getPerimetr() throws Exception {
+    public void getPerimetr() {
         Point a = new Point(1,1);
         Point b = new Point(1,-1);
         Point c = new Point(0,0);
@@ -38,7 +38,7 @@ public class TriangleTest {
     }
 
     @Test
-    public void getArea() throws Exception {
+    public void getArea() {
         Point a = new Point(1,1);
         Point b = new Point(1,-1);
         Point c = new Point(0,0);
@@ -49,7 +49,7 @@ public class TriangleTest {
     }
 
     @Test
-    public void setApexA() throws Exception {
+    public void setApexA() {
         Point a = new Point(1,1);
         Point b = new Point(1,-1);
         Point c = new Point(0,0);
@@ -58,7 +58,7 @@ public class TriangleTest {
     }
 
     @Test
-    public void setApexB() throws Exception {
+    public void setApexB() {
         Point a = new Point(1,1);
         Point b = new Point(1,-1);
         Point c = new Point(0,0);
@@ -67,7 +67,7 @@ public class TriangleTest {
     }
 
     @Test
-    public void setApexC() throws Exception {
+    public void setApexC() {
         Point a = new Point(1,1);
         Point b = new Point(1,-1);
         Point c = new Point(0,0);
@@ -76,7 +76,7 @@ public class TriangleTest {
     }
 
     @Test(expected = IllegalArgumentException.class)
-    public void setApexAWithWrongPoint() throws Exception {
+    public void setApexAWithWrongPoint() {
         Point a = new Point(1,1);
         Point b = new Point(1,-1);
         Point c = new Point(0,0);
@@ -85,7 +85,7 @@ public class TriangleTest {
     }
 
     @Test
-    public void cloneTriangle() throws Exception {
+    public void cloneTriangle() {
         Point a = new Point(1,1);
         Point b = new Point(1,-1);
         Point c = new Point(0,0);

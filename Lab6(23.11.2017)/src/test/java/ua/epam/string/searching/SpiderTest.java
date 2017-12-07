@@ -35,20 +35,20 @@ public class SpiderTest {
             "\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n" +
             "\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n" +
             "\tat java.lang.reflect.Method.invoke(Method.java:498)\n" +
-            "\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\n" +
-            "\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n" +
-            "\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\n" +
-            "\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n" +
-            "\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n" +
-            "\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)\n" +
-            "\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\n" +
-            "\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\n" +
-            "\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n" +
-            "\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n" +
-            "\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n" +
-            "\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n" +
-            "\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n" +
-            "\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n" +
+            "\tat org.junit.main.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\n" +
+            "\tat org.junit.internal.main.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n" +
+            "\tat org.junit.main.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\n" +
+            "\tat org.junit.internal.main.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n" +
+            "\tat org.junit.internal.main.statements.RunBefores.evaluate(RunBefores.java:26)\n" +
+            "\tat org.junit.main.ParentRunner.runLeaf(ParentRunner.java:325)\n" +
+            "\tat org.junit.main.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\n" +
+            "\tat org.junit.main.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\n" +
+            "\tat org.junit.main.ParentRunner$3.run(ParentRunner.java:290)\n" +
+            "\tat org.junit.main.ParentRunner$1.schedule(ParentRunner.java:71)\n" +
+            "\tat org.junit.main.ParentRunner.runChildren(ParentRunner.java:288)\n" +
+            "\tat org.junit.main.ParentRunner.access$000(ParentRunner.java:58)\n" +
+            "\tat org.junit.main.ParentRunner$2.evaluate(ParentRunner.java:268)\n" +
+            "\tat org.junit.main.ParentRunner.run(ParentRunner.java:363)\n" +
             "\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n" +
             "\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\n" +
             "\tat com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)\n" +
@@ -74,11 +74,11 @@ public class SpiderTest {
             "20 Get information from site: http://search.maven.org Getting content - OK Found: 6595 words, added new unique: 160\n";
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
     }
 
     @Test
-    public void scan() throws Exception {
+    public void scan() {
         String siteUrl = "http://www.vogella.com/tutorials/Mockito/article.html";
         Spider spider = new Spider();
         DataProvider dataProvider = mock(DataProvider.class, CALLS_REAL_METHODS);
@@ -88,7 +88,7 @@ public class SpiderTest {
     }
 
     @Test
-    public void getWordWithMAXURLCounts() throws Exception {
+    public void getWordWithMAXURLCounts() {
         String siteUrl = "http://www.vogella.com/tutorials/Mockito/article.html";
         Spider spider = new Spider();
         DataProvider dataProvider = mock(DataProvider.class);
@@ -99,7 +99,7 @@ public class SpiderTest {
     }
 
     @Test
-    public void getWordWithMAXStat() throws Exception {
+    public void getWordWithMAXStat() {
         String siteUrl = "http://www.vogella.com/tutorials/Mockito/article.html";
         Spider spider = new Spider();
         DataProvider dataProvider = mock(DataProvider.class);
@@ -110,15 +110,15 @@ public class SpiderTest {
     }
 
     @Test
-    public void showWordStats() throws Exception {
+    public void showWordStats() {
     }
 
     @Test
-    public void showTopWordList() throws Exception {
+    public void showTopWordList() {
     }
 
     @Test
-    public void sortWordList() throws Exception {
+    public void sortWordList() {
         String siteUrl = "http://www.vogella.com/tutorials/Mockito/article.html";
         Spider spider = new Spider();
         DataProvider dataProvider = mock(DataProvider.class);
@@ -129,7 +129,7 @@ public class SpiderTest {
     }
 
     @Test
-    public void getWordsList() throws Exception {
+    public void getWordsList() {
         String siteUrl = "http://www.vogella.com/tutorials/Mockito/article.html";
         Spider spider = new Spider();
         DataProvider dataProvider = mock(DataProvider.class);
@@ -140,7 +140,7 @@ public class SpiderTest {
     }
 
     @Test
-    public void loadSite() throws Exception {
+    public void loadSite() {
         String siteUrl = "http://www.vogella.com/tutorials/Mockito/article.html";
 
         Spider spider = mock(Spider.class);
