@@ -17,7 +17,7 @@ public class KettleTest {
     }
 
     @Test
-    public void getVaterVolume() throws Exception {
+    public void getVaterVolume() {
         int expected = 1500;
         kettle.setVaterVolume(expected);
         int result = kettle.getVaterVolume();
@@ -26,7 +26,7 @@ public class KettleTest {
     }
 
     @Test
-    public void getBoilingTime() throws Exception {
+    public void getBoilingTime() {
         int expected = 30;
         kettle.setBoilingTime(expected);
         int result = kettle.getBoilingTime();

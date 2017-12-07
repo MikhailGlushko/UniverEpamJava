@@ -9,13 +9,13 @@ import java.util.List;
  */
 public interface WeatherDataStorage {
 
-    public Weather getWeather();
-    public List<Weather> getHistory();
-    public List<Weather> getHistory(int count);
-    public boolean isHasNewWeather();
+    Weather getWeather();
+    List<Weather> getHistory();
+    List<Weather> getHistory(int count);
+    boolean isHasNewWeather();
 
-    public void setWeather(Weather weather);
-    public void setHasNewWeather(boolean hasNewWeather);
+    void setWeather(Weather weather);
+    void setHasNewWeather(boolean hasNewWeather);
 
-    public Weather getForecast();
+    Weather getForecast();
 }

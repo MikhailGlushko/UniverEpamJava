@@ -26,7 +26,7 @@ public class MobilePhoneFactory extends AbstractApplianceFactory {
     }
 
     @Override
-        public MobilePhone getAppliance() throws IllegalAccessException {
+        public MobilePhone getAppliance() {
             int rndIdx = (int)(Math.random()*MOBILE_VENDORS.length);
             String modelName = MOBILE_VENDORS[rndIdx];
             int power = (int)(Math.random()*(MAX_POWER-MIN_POWER)+MIN_POWER);

@@ -77,9 +77,9 @@ public class ApplianceDAOImp implements ApplianceDAO {
                                 break;
                         } else {
                             if(resultValue instanceof Double)
-                                result = ((Double) resultValue).equals((Double) criteriaValue);
+                                result = resultValue.equals(criteriaValue);
                             else
-                                result = ((Integer) resultValue).equals((Integer) criteriaValue);
+                                result = resultValue.equals(criteriaValue);
                         }
                         break;
                     case NOT_EQUAL:
@@ -89,9 +89,9 @@ public class ApplianceDAOImp implements ApplianceDAO {
                                 break;
                         } else {
                             if(resultValue instanceof Double)
-                                result = !((Double) resultValue).equals((Double) criteriaValue);
+                                result = !resultValue.equals(criteriaValue);
                             else
-                                result = !((Integer) resultValue).equals((Integer) criteriaValue);
+                                result = !resultValue.equals(criteriaValue);
                         }
                         break;
                     case MORE:

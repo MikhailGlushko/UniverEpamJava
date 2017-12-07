@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 
 public class DataProviderImplTest {
     @Test
-    public void getInputStream() throws Exception {
+    public void getInputStream() {
 
         DataServer dataServer = new OpenWeatherDataServerJSON();
 

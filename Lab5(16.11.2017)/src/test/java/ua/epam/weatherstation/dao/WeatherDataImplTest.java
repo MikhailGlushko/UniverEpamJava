@@ -22,7 +22,7 @@ public class WeatherDataImplTest {
     }
 
     @Test
-    public void getWeather() throws Exception {
+    public void getWeather() {
         weather = weatherData.getWeather();
         boolean result = weather==null;
         boolean required = false;
@@ -30,7 +30,7 @@ public class WeatherDataImplTest {
     }
 
     @Test
-    public void getForecast() throws Exception {
+    public void getForecast() {
         Weather result = new Weather(new Pair("1","C"),new Pair("1", "%"),new Pair("1", "hPa"));
         weatherData.setWeather(result);
         Weather forecast = weatherData.getForecast();
@@ -43,13 +43,13 @@ public class WeatherDataImplTest {
     }
 
     @Test
-    public void setWeather() throws Exception {
+    public void setWeather() {
         Weather result = new Weather(new Pair("1","C"),new Pair("1", "%"),new Pair("1", "hPa"));
         weatherData.setWeather(weather);
     }
 
     @Test
-    public void getHistory() throws Exception {
+    public void getHistory() {
         List<Weather> history = weatherData.getHistory();
         int result = history.size();
         int required = 0;
@@ -68,14 +68,14 @@ public class WeatherDataImplTest {
     }
 
     @Test
-    public void isHasnewWeather() throws Exception {
+    public void isHasnewWeather() {
         boolean result = weatherData.isHasNewWeather();
         boolean required = true;
         assertEquals(result,required);
     }
 
     @Test
-    public void setHasnewWeather() throws Exception {
+    public void setHasnewWeather() {
         weatherData.setHasNewWeather(false);
         boolean result = weatherData.isHasNewWeather();
         boolean required = false;

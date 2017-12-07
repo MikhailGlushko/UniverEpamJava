@@ -32,7 +32,7 @@ public class DemoApp {
     public static void main(String[] args) {
 
         ApplianceFactory applianceFactory = new ApplianceFactory();
-        ApplianceDAO applianceDAO = new ApplianceDAOImp();;
+        ApplianceDAO applianceDAO = new ApplianceDAOImp();
         Appliance appliance;
 
         int coutAppliance = 10;

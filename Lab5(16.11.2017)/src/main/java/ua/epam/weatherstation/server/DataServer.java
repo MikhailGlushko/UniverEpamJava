@@ -116,7 +116,7 @@ abstract public class DataServer {
         if(obseverList!=null && obseverList.size()>0) {
             System.out.println("Відправка нотифікацій клієнтам");
             for (int i = 0; i < obseverList.size(); i++) {
-                WeatherObsever weatherObsever = (WeatherObsever) obseverList.get(i);
+                WeatherObsever weatherObsever = obseverList.get(i);
                 System.out.println("Відрпавляємо дані клієнту "+i+" "+weatherObsever);
                 weatherObsever.update(this);
             }

@@ -32,7 +32,7 @@ public class LaptopFactory extends AbstractApplianceFactory {
      * @throws IllegalAccessException
      */
     @Override
-    public Laptop getAppliance() throws IllegalAccessException {
+    public Laptop getAppliance() {
         int rndIdx = (int)(Math.random()*LAPTOP_VENDORS.length);
         String modelName = LAPTOP_VENDORS[rndIdx];
         int power = (int)(Math.random()*(MAX_POWER-MIN_POWER)+MIN_POWER)/5*5;

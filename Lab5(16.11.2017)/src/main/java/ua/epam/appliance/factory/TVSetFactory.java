@@ -27,7 +27,7 @@ public class TVSetFactory extends AbstractApplianceFactory {
      * @throws IllegalAccessException
      */
     @Override
-    public TVSet getAppliance() throws IllegalAccessException {
+    public TVSet getAppliance() {
         int rndIdx = (int)(Math.random()* TVSET_VENDORS.length);
         String modelName = TVSET_VENDORS[rndIdx];
         int power = (int)(Math.random()*(MAX_POWER-MIN_POWER)+MIN_POWER)/5*5;

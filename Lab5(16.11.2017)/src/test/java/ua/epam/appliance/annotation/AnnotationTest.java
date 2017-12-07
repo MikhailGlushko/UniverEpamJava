@@ -3,7 +3,6 @@ package ua.epam.appliance.annotation;
 import org.junit.Before;
 import org.junit.Test;
 import ua.epam.appliance.entity.Appliance;
-import ua.epam.appliance.entity.Kettle;
 import ua.epam.appliance.factory.KettleFactory;
 
 import static org.junit.Assert.*;
@@ -19,14 +18,14 @@ public class AnnotationTest {
     }
 
     @Test
-    public void getCountClassAnnotated() throws Exception {
+    public void getCountClassAnnotated() {
         int result = annotation.getCountClassAnnotated();
         int expected = 4;
         assertEquals(result,expected);
     }
 
     @Test
-    public void isClassAnnotated() throws Exception {
+    public void isClassAnnotated() {
         boolean result = annotation.isClassAnnotated(this.getClass());
         boolean expected = false;
         assertEquals(result,expected);

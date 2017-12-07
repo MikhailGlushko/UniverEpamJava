@@ -74,7 +74,7 @@ public class OpenWeatherDataServerJSON extends DataServer {
         System.out.println(line);
 
         Gson gson = new GsonBuilder().create();
-        JWeather JWeather = (JWeather) gson.fromJson(line, JWeather.class);
+        JWeather JWeather = gson.fromJson(line, JWeather.class);
         Weather weather = new Weather(JWeather);
 
         return weather;

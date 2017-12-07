@@ -25,7 +25,7 @@ public class KettleFactory extends AbstractApplianceFactory {
      * @throws IllegalAccessException
      */
     @Override
-    public Kettle getAppliance() throws IllegalAccessException {
+    public Kettle getAppliance() {
         int rndIdx = (int)(Math.random()* KETTLE_VENDORS.length);
         String modelName = KETTLE_VENDORS[rndIdx];
         int power = (int)(Math.random()*(MAX_POWER-MIN_POWER)+MIN_POWER)/100*100;

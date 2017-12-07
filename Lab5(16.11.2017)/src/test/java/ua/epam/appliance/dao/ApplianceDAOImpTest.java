@@ -8,7 +8,6 @@ import ua.epam.appliance.criteria.CriteriaField;
 import ua.epam.appliance.criteria.Expression;
 import ua.epam.appliance.entity.Appliance;
 import ua.epam.appliance.factory.ApplianceFactory;
-import ua.epam.appliance.factory.LaptopFactory;
 
 import java.util.List;
 
@@ -21,7 +20,7 @@ public class ApplianceDAOImpTest {
     ApplianceDAO applianceDAO;
 
     @Before
-    public void createAppliance() throws IllegalAccessException {
+    public void createAppliance() {
         applianceFactory = new ApplianceFactory();
         applianceDAO = new ApplianceDAOImp();
     }
@@ -36,7 +35,7 @@ public class ApplianceDAOImpTest {
     }
 
     @Test(expected = IllegalArgumentException.class)
-    public void removeWrondID() throws Exception {
+    public void removeWrondID() {
         applianceDAO.remove(1L);
     }
 

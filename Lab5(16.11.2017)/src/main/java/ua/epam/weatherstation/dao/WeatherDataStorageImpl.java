@@ -53,7 +53,7 @@ public class WeatherDataStorageImpl implements WeatherDataStorage {
         for (int i=0; i<count; i++){
             if(history.size()>0)
                 tmp.add(history.get(i));
-            else break;;
+            else break;
         }
         return tmp;
     }
