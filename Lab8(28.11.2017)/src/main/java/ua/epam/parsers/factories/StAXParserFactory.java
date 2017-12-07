@@ -1,0 +1,15 @@
+package ua.epam.parsers.factories;
+
+import ua.epam.parsers.Parser;
+import ua.epam.parsers.StAXParser;
+
+/**
+ * StAX parser factories class (factories method template)
+ */
+public class StAXParserFactory implements ParserFactory {
+
+    @Override
+    public Parser createParser() {
+        return new StAXParser();
+    }
+}

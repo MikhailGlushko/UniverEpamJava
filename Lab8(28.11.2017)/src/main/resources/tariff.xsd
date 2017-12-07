@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified"
+           elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="tariff">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="plan" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="operator-name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:enumeration value="Life"/>
+                    <xs:enumeration value="Kievstar"/>
+                    <xs:enumeration value="Vodafone"/>
+                    <xs:enumeration value="Beeline"/>
+                    <xs:enumeration value="Utel"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element type="priceType" name="payroll"/>
+              <xs:element name="call-prices">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="priceType" name="inside-net-calls"/>
+                    <xs:element type="priceType" name="outside-net-calls"/>
+                    <xs:element type="priceType" name="stationary-phone-calls"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="priceType" name="sms-price"/>
+              <xs:element name="parameters">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="favourite-number" minOccurs="0">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="priceType">
+                            <xs:attribute name="numbers-amount" use="required">
+                              <xs:simpleType>
+                                <xs:restriction base="xs:double">
+                                  <xs:minInclusive value="0"/>
+                                  <xs:maxInclusive value="10"/>
+                                </xs:restriction>
+                              </xs:simpleType>
+                            </xs:attribute>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="billing">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:enumeration value="Second"/>
+                          <xs:enumeration value="Minute"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                    <xs:element type="priceType" name="activation-price"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="name" use="required"/>
+            <xs:attribute name="planID" use="required">
+              <xs:simpleType>
+                <xs:restriction base="xs:int">
+                  <xs:pattern value="[0-9]{8}"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:unique name="planUniqueID">
+      <xs:selector xpath="plan"/>
+      <xs:field xpath="@planID"/>
+    </xs:unique>
+  </xs:element>
+  <xs:simpleType name="priceType">
+    <xs:restriction base="xs:double">
+      <xs:minInclusive value="0"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

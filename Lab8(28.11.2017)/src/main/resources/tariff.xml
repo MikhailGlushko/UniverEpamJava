@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tariff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="tariff.xsd">
+    <plan name="Simple" planID="12345678">
+        <operator-name>Life</operator-name>
+        <payroll>50</payroll>
+        <call-prices>
+            <inside-net-calls>0</inside-net-calls>
+            <outside-net-calls>5</outside-net-calls>
+            <stationary-phone-calls>7</stationary-phone-calls>
+        </call-prices>
+        <sms-price>1</sms-price>
+        <parameters>
+            <favourite-number numbers-amount="4">5</favourite-number>
+            <billing>Minute</billing>
+            <activation-price>10</activation-price>
+        </parameters>
+    </plan>
+    <plan name="VIP" planID="03587964">
+        <operator-name>Kievstar</operator-name>
+        <payroll>100</payroll>
+        <call-prices>
+            <inside-net-calls>5</inside-net-calls>
+            <outside-net-calls>10</outside-net-calls>
+            <stationary-phone-calls>15</stationary-phone-calls>
+        </call-prices>
+        <sms-price>3</sms-price>
+        <parameters>
+            <favourite-number numbers-amount="10">10</favourite-number>
+            <billing>Second</billing>
+            <activation-price>50</activation-price>
+        </parameters>
+    </plan>
+    <plan name="Vodafone RED XS" planID="12345679">
+        <operator-name>Vodafone</operator-name>
+        <payroll>50</payroll>
+        <call-prices>
+            <inside-net-calls>0</inside-net-calls>
+            <outside-net-calls>0.50</outside-net-calls>
+            <stationary-phone-calls>2</stationary-phone-calls>
+        </call-prices>
+        <sms-price>0.50</sms-price>
+        <parameters>
+            <billing>Second</billing>
+            <activation-price>70</activation-price>
+        </parameters>
+    </plan>
+</tariff>
