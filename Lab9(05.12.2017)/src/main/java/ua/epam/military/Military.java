@@ -8,20 +8,19 @@ public class Military {
 
     static Logger logger = Logger.getLogger(Military.class);
 
-    private final Stack<Weapon> depot = new Stack<>();
     private final int countToSteal = 10;
     private volatile int countStealed = 0;
     private volatile int countLoaded = 0;
     private volatile int countCalculated = 0;
     private volatile int price = 0;
-
-    private final Stack<Weapon> stolenWeapon = new Stack<>();
-    private final Stack<Weapon> loadedWeapon = new Stack<>();
-    private final Stack<Weapon> calculatedWeapon = new Stack<>();
-
     private volatile boolean stealed;
     private volatile boolean loaded;
     private volatile boolean calculated;
+
+    private final Stack<Weapon> depot = new Stack<>();
+    private final Stack<Weapon> stolenWeapon = new Stack<>();
+    private final Stack<Weapon> loadedWeapon = new Stack<>();
+    private final Stack<Weapon> calculatedWeapon = new Stack<>();
 
     public Military() {
         makeDepot();

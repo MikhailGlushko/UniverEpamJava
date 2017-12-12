@@ -14,103 +14,6 @@ import java.util.List;
 import javax.xml.bind.annotation.*;
 
 
-/**
- * <p>Java class for anonymous complex type.
- *
- * <p>The following schema fragment specifies the expected content contained within this class.
- *
- * <pre>
- * &lt;complexType>
- *   &lt;complexContent>
- *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
- *       &lt;sequence>
- *         &lt;element name="plan" maxOccurs="unbounded" minOccurs="0">
- *           &lt;complexType>
- *             &lt;complexContent>
- *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
- *                 &lt;sequence>
- *                   &lt;element name="operator-name">
- *                     &lt;simpleType>
- *                       &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
- *                         &lt;enumeration value="Life"/>
- *                         &lt;enumeration value="Kievstar"/>
- *                         &lt;enumeration value="Vodafone"/>
- *                         &lt;enumeration value="Beeline"/>
- *                         &lt;enumeration value="Utel"/>
- *                       &lt;/restriction>
- *                     &lt;/simpleType>
- *                   &lt;/element>
- *                   &lt;element name="payroll" type="{}priceType"/>
- *                   &lt;element name="call-prices">
- *                     &lt;complexType>
- *                       &lt;complexContent>
- *                         &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
- *                           &lt;sequence>
- *                             &lt;element name="inside-net-calls" type="{}priceType"/>
- *                             &lt;element name="outside-net-calls" type="{}priceType"/>
- *                             &lt;element name="stationary-phone-calls" type="{}priceType"/>
- *                           &lt;/sequence>
- *                         &lt;/restriction>
- *                       &lt;/complexContent>
- *                     &lt;/complexType>
- *                   &lt;/element>
- *                   &lt;element name="sms-price" type="{}priceType"/>
- *                   &lt;element name="parameters">
- *                     &lt;complexType>
- *                       &lt;complexContent>
- *                         &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
- *                           &lt;sequence>
- *                             &lt;element name="favourite-number" minOccurs="0">
- *                               &lt;complexType>
- *                                 &lt;simpleContent>
- *                                   &lt;extension base="&lt;>priceType">
- *                                     &lt;attribute name="numbers-amount" use="required">
- *                                       &lt;simpleType>
- *                                         &lt;restriction base="{http://www.w3.org/2001/XMLSchema}int">
- *                                           &lt;minInclusive value="0"/>
- *                                           &lt;maxInclusive value="10"/>
- *                                         &lt;/restriction>
- *                                       &lt;/simpleType>
- *                                     &lt;/attribute>
- *                                   &lt;/extension>
- *                                 &lt;/simpleContent>
- *                               &lt;/complexType>
- *                             &lt;/element>
- *                             &lt;element name="billing">
- *                               &lt;simpleType>
- *                                 &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
- *                                   &lt;enumeration value="12-second"/>
- *                                   &lt;enumeration value="Minute"/>
- *                                 &lt;/restriction>
- *                               &lt;/simpleType>
- *                             &lt;/element>
- *                             &lt;element name="activation-price" type="{}priceType"/>
- *                           &lt;/sequence>
- *                         &lt;/restriction>
- *                       &lt;/complexContent>
- *                     &lt;/complexType>
- *                   &lt;/element>
- *                 &lt;/sequence>
- *                 &lt;attribute name="name" use="required" type="{http://www.w3.org/2001/XMLSchema}string" />
- *                 &lt;attribute name="planID" use="required">
- *                   &lt;simpleType>
- *                     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}int">
- *                       &lt;pattern value="[0-9]{8}"/>
- *                     &lt;/restriction>
- *                   &lt;/simpleType>
- *                 &lt;/attribute>
- *               &lt;/restriction>
- *             &lt;/complexContent>
- *           &lt;/complexType>
- *         &lt;/element>
- *       &lt;/sequence>
- *     &lt;/restriction>
- *   &lt;/complexContent>
- * &lt;/complexType>
- * </pre>
- *
- *
- */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
         "plan"
@@ -120,28 +23,6 @@ public class Tariff {
 
     protected List<Plan> plan = new ArrayList<>();
 
-    /**
-     * Gets the value of the plan property.
-     * 
-     * <p>
-     * This accessor method returns a reference to the live list,
-     * not a snapshot. Therefore any modification you make to the
-     * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the plan property.
-     * 
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getPlan().add(newItem);
-     * </pre>
-     * 
-     * 
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link Tariff.Plan }
-     * 
-     * 
-     */
     public List<Plan> getPlan() {
         if (plan == null) {
             plan = new ArrayList<>();
@@ -194,146 +75,58 @@ public class Tariff {
         @XmlAttribute(name = "planID", required = true)
         protected int planID;
 
-        /**
-         * Gets the value of the operatorName property.
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
-         */
         public String getOperatorName() {
             return operatorName;
         }
 
-        /**
-         * Sets the value of the operatorName property.
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
-         */
         public void setOperatorName(String value) {
             this.operatorName = value;
         }
 
-        /**
-         * Gets the value of the payroll property.
-         * 
-         */
         public double getPayroll() {
             return payroll;
         }
 
-        /**
-         * Sets the value of the payroll property.
-         * 
-         */
         public void setPayroll(double value) {
             this.payroll = value;
         }
 
-        /**
-         * Gets the value of the callPrices property.
-         * 
-         * @return
-         *     possible object is
-         *     {@link Tariff.Plan.CallPrices }
-         *     
-         */
         public CallPrices getCallPrices() {
             return callPrices;
         }
 
-        /**
-         * Sets the value of the callPrices property.
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link Tariff.Plan.CallPrices }
-         *     
-         */
         public void setCallPrices(CallPrices value) {
             this.callPrices = value;
         }
 
-        /**
-         * Gets the value of the smsPrice property.
-         * 
-         */
         public double getSmsPrice() {
             return smsPrice;
         }
 
-        /**
-         * Sets the value of the smsPrice property.
-         * 
-         */
         public void setSmsPrice(double value) {
             this.smsPrice = value;
         }
 
-        /**
-         * Gets the value of the parameters property.
-         * 
-         * @return
-         *     possible object is
-         *     {@link Tariff.Plan.Parameters }
-         *     
-         */
         public Parameters getParameters() {
             return parameters;
         }
 
-        /**
-         * Sets the value of the parameters property.
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link Tariff.Plan.Parameters }
-         *     
-         */
         public void setParameters(Parameters value) {
             this.parameters = value;
         }
 
-        /**
-         * Gets the value of the name property.
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
-         */
         public String getName() {
             return name;
         }
 
-        /**
-         * Sets the value of the name property.
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
-         */
         public void setName(String value) {
             this.name = value;
         }
 
-        /**
-         * Gets the value of the planID property.
-         * 
-         */
         public int getPlanID() {
             return planID;
         }
 
-        /**
-         * Sets the value of the planID property.
-         * 
-         */
         public void setPlanID(int value) {
             this.planID = value;
         }
@@ -350,28 +143,6 @@ public class Tariff {
                     '\n' + parameters;
         }
 
-
-        /**
-         * <p>Java class for anonymous complex type.
-         * 
-         * <p>The following schema fragment specifies the expected content contained within this class.
-         * 
-         * <pre>
-         * &lt;complexType>
-         *   &lt;complexContent>
-         *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-         *       &lt;sequence>
-         *         &lt;element name="inside-net-calls" type="{}priceType"/>
-         *         &lt;element name="outside-net-calls" type="{}priceType"/>
-         *         &lt;element name="stationary-phone-calls" type="{}priceType"/>
-         *       &lt;/sequence>
-         *     &lt;/restriction>
-         *   &lt;/complexContent>
-         * &lt;/complexType>
-         * </pre>
-         * 
-         * 
-         */
         @XmlAccessorType(XmlAccessType.FIELD)
         @XmlType(name = "", propOrder = {
             "insideNetCalls",
@@ -389,50 +160,26 @@ public class Tariff {
             @XmlElement(name = "stationary-phone-calls", required = true)
             protected double stationaryPhoneCalls;
 
-            /**
-             * Gets the value of the insideNetCalls property.
-             * 
-             */
             public double getInsideNetCalls() {
                 return insideNetCalls;
             }
 
-            /**
-             * Sets the value of the insideNetCalls property.
-             * 
-             */
             public void setInsideNetCalls(double value) {
                 this.insideNetCalls = value;
             }
 
-            /**
-             * Gets the value of the outsideNetCalls property.
-             * 
-             */
             public double getOutsideNetCalls() {
                 return outsideNetCalls;
             }
 
-            /**
-             * Sets the value of the outsideNetCalls property.
-             * 
-             */
             public void setOutsideNetCalls(double value) {
                 this.outsideNetCalls = value;
             }
 
-            /**
-             * Gets the value of the stationaryPhoneCalls property.
-             * 
-             */
             public double getStationaryPhoneCalls() {
                 return stationaryPhoneCalls;
             }
 
-            /**
-             * Sets the value of the stationaryPhoneCalls property.
-             * 
-             */
             public void setStationaryPhoneCalls(double value) {
                 this.stationaryPhoneCalls = value;
             }
@@ -446,51 +193,7 @@ public class Tariff {
             }
         }
 
-
-        /**
-         * <p>Java class for anonymous complex type.
-         * 
-         * <p>The following schema fragment specifies the expected content contained within this class.
-         * 
-         * <pre>
-         * &lt;complexType>
-         *   &lt;complexContent>
-         *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-         *       &lt;sequence>
-         *         &lt;element name="favourite-number" minOccurs="0">
-         *           &lt;complexType>
-         *             &lt;simpleContent>
-         *               &lt;extension base="&lt;>priceType">
-         *                 &lt;attribute name="numbers-amount" use="required">
-         *                   &lt;simpleType>
-         *                     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}int">
-         *                       &lt;minInclusive value="0"/>
-         *                       &lt;maxInclusive value="10"/>
-         *                     &lt;/restriction>
-         *                   &lt;/simpleType>
-         *                 &lt;/attribute>
-         *               &lt;/extension>
-         *             &lt;/simpleContent>
-         *           &lt;/complexType>
-         *         &lt;/element>
-         *         &lt;element name="billing">
-         *           &lt;simpleType>
-         *             &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
-         *               &lt;enumeration value="12-second"/>
-         *               &lt;enumeration value="Minute"/>
-         *             &lt;/restriction>
-         *           &lt;/simpleType>
-         *         &lt;/element>
-         *         &lt;element name="activation-price" type="{}priceType"/>
-         *       &lt;/sequence>
-         *     &lt;/restriction>
-         *   &lt;/complexContent>
-         * &lt;/complexType>
-         * </pre>
-         * 
-         * 
-         */
-        @XmlAccessorType(XmlAccessType.FIELD)
+     @XmlAccessorType(XmlAccessType.FIELD)
         @XmlType(name = "", propOrder = {
             "favouriteNumber",
             "billing",
@@ -507,67 +210,27 @@ public class Tariff {
             @XmlElement(name = "activation-price", required = true)
             protected double activationPrice;
 
-            /**
-             * Gets the value of the favouriteNumber property.
-             * 
-             * @return
-             *     possible object is
-             *     {@link Tariff.Plan.Parameters.FavouriteNumber }
-             *     
-             */
             public FavouriteNumber getFavouriteNumber() {
                 return favouriteNumber;
             }
 
-            /**
-             * Sets the value of the favouriteNumber property.
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link Tariff.Plan.Parameters.FavouriteNumber }
-             *     
-             */
             public void setFavouriteNumber(FavouriteNumber value) {
                 this.favouriteNumber = value;
             }
 
-            /**
-             * Gets the value of the billing property.
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
-             */
             public String getBilling() {
                 return billing;
             }
 
-            /**
-             * Sets the value of the billing property.
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
-             */
             public void setBilling(String value) {
                 this.billing = value;
             }
 
-            /**
-             * Gets the value of the activationPrice property.
-             * 
-             */
             public double getActivationPrice() {
                 return activationPrice;
             }
 
-            /**
-             * Sets the value of the activationPrice property.
-             * 
-             */
-            public void setActivationPrice(double value) {
+             public void setActivationPrice(double value) {
                 this.activationPrice = value;
             }
 
@@ -579,31 +242,6 @@ public class Tariff {
                         "\n\t-activation price: " + activationPrice;
             }
 
-
-            /**
-             * <p>Java class for anonymous complex type.
-             * 
-             * <p>The following schema fragment specifies the expected content contained within this class.
-             * 
-             * <pre>
-             * &lt;complexType>
-             *   &lt;simpleContent>
-             *     &lt;extension base="&lt;>priceType">
-             *       &lt;attribute name="numbers-amount" use="required">
-             *         &lt;simpleType>
-             *           &lt;restriction base="{http://www.w3.org/2001/XMLSchema}int">
-             *             &lt;minInclusive value="0"/>
-             *             &lt;maxInclusive value="10"/>
-             *           &lt;/restriction>
-             *         &lt;/simpleType>
-             *       &lt;/attribute>
-             *     &lt;/extension>
-             *   &lt;/simpleContent>
-             * &lt;/complexType>
-             * </pre>
-             * 
-             * 
-             */
             @XmlAccessorType(XmlAccessType.FIELD)
             @XmlType(name = "", propOrder = {
                     "value"
@@ -616,34 +254,18 @@ public class Tariff {
                 @XmlAttribute(name = "numbers-amount", required = true)
                 protected int numbersAmount;
 
-                /**
-                 * Gets the value of the value property.
-                 * 
-                 */
                 public int getValue() {
                     return value;
                 }
 
-                /**
-                 * Sets the value of the value property.
-                 * 
-                 */
                 public void setValue(int value) {
                     this.value = value;
                 }
 
-                /**
-                 * Gets the value of the numbersAmount property.
-                 * 
-                 */
                 public int getNumbersAmount() {
                     return numbersAmount;
                 }
 
-                /**
-                 * Sets the value of the numbersAmount property.
-                 * 
-                 */
                 public void setNumbersAmount(int value) {
                     this.numbersAmount = value;
                 }

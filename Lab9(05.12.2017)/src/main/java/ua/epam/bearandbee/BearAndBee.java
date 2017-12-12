@@ -1,6 +1,5 @@
 package ua.epam.bearandbee;
 
-import org.apache.log4j.Appender;
 import org.apache.log4j.Logger;
 
 import java.util.*;
@@ -28,7 +27,7 @@ public class BearAndBee {
         int part;
         while ((part = getPartOfForestFromQue()) != -1 && beerNumber == -1) {
             logger.info("Part "+part/partCount + " need to check");
-            waitBeeWorkerWhereReturnFromSearch();
+            waitForAvailableBeeWorker();
             startBeeWorkerToSearch(part);
         }
         return beerNumber;
@@ -40,7 +39,7 @@ public class BearAndBee {
         return -1;
     }
 
-    private void waitBeeWorkerWhereReturnFromSearch() {
+    private void waitForAvailableBeeWorker() {
         while (beeWorkers.isEmpty()) {
             synchronized (beeWorkers) {
                 try {
