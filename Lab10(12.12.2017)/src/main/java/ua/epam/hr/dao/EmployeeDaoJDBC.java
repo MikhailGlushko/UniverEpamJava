@@ -22,7 +22,7 @@ public class EmployeeDaoJDBC implements EmployeeDao {
     }
 
     @Override
-    public void save(Employee employee) {
+    public void add(Employee employee) {
         try {
             String sql = "insert into employee (name, departmentId) values(?,?)";
             PreparedStatement pst = connection.prepareStatement(sql,Statement.RETURN_GENERATED_KEYS);
@@ -35,7 +35,20 @@ public class EmployeeDaoJDBC implements EmployeeDao {
             ResultSet generatedKeys = pst.getGeneratedKeys();
             if (generatedKeys.next())
                 employee.setId(generatedKeys.getInt(1));
-            logger.info(employee);
+        } catch (SQLException e) {
+            logger.error(e);
+        }
+    }
+
+    @Override
+    public void save(Employee employee){
+        try {
+            String sql = "update employee set name=?, departmentId=? where id=?";
+            PreparedStatement pst = connection.prepareStatement(sql);
+            pst.setString(1,employee.getName());
+            pst.setInt(2,employee.getDepartmentId());
+            pst.setInt(3,employee.getId());
+            pst.executeUpdate();
         } catch (SQLException e) {
             logger.error(e);
         }
@@ -57,6 +70,18 @@ public class EmployeeDaoJDBC implements EmployeeDao {
     }
 
     @Override
+    public void deleteAll(){
+        try {
+            String sql = "delete from employee";
+            PreparedStatement pst = connection.prepareStatement(sql);
+            pst.executeUpdate();
+
+        } catch (SQLException e) {
+            logger.error(e);
+        }
+    }
+
+    @Override
     public Employee getById(int id) {
         Employee employee=null;
         try {
@@ -65,7 +90,9 @@ public class EmployeeDaoJDBC implements EmployeeDao {
             pst.setInt(1,id);
             ResultSet resultSet = pst.executeQuery();
             if(resultSet.next())
-                employee = new Employee(resultSet.getInt(1), resultSet.getString(2), resultSet.getByte(3));
+                employee = new Employee(resultSet.getInt(1),
+                                        resultSet.getString(2),
+                                        resultSet.getInt(3));
         } catch (SQLException e) {
             logger.error(e);
         }
@@ -81,7 +108,9 @@ public class EmployeeDaoJDBC implements EmployeeDao {
             pst.setString(1,name);
             ResultSet resultSet = pst.executeQuery();
             if(resultSet.next())
-                employee = new Employee(resultSet.getInt(1), resultSet.getString(2), resultSet.getByte(3));
+                employee = new Employee(resultSet.getInt(1),
+                                        resultSet.getString(2),
+                                        resultSet.getInt(3));
         } catch (SQLException e) {
             logger.error(e);
         }
@@ -98,7 +127,9 @@ public class EmployeeDaoJDBC implements EmployeeDao {
             PreparedStatement pst = connection.prepareStatement(sql);
             ResultSet resultSet = pst.executeQuery();
             while (resultSet.next()){
-                employee = new Employee(resultSet.getInt(1), resultSet.getString(2), resultSet.getByte(3));
+                employee = new Employee(resultSet.getInt(1),
+                                        resultSet.getString(2),
+                                        resultSet.getInt(3));
                 list.add(employee);
             }
         } catch (SQLException e) {
@@ -116,13 +147,14 @@ public class EmployeeDaoJDBC implements EmployeeDao {
             pst.setInt(1,departmentId);
             ResultSet resultSet = pst.executeQuery();
             while (resultSet.next()){
-                employee = new Employee(resultSet.getInt(1), resultSet.getString(2), resultSet.getByte(3));
+                employee = new Employee(resultSet.getInt(1),
+                                        resultSet.getString(2),
+                                        resultSet.getInt(3));
                 list.add(employee);
             }
         } catch (SQLException e) {
             logger.error(e);
         }
         return list;
-
     }
 }

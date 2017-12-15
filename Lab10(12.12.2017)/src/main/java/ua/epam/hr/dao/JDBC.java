@@ -6,8 +6,8 @@ import java.sql.SQLException;
 
 public class JDBC {
     private Connection connection;
-    private String driver = "com.mysql.jdbc.Driver";
-    private String url = "jdbc:mysql://localhost:3306/hr";
+    private String driver = "com.mysql.cj.jdbc.Driver";
+    private String url = "jdbc:mysql://localhost:3306/hr?useSSL=false";
     private String login = "root";
     private String password = "compaq";
 

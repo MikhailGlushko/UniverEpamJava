@@ -14,6 +14,11 @@ public class Employee {
         this.departmentId = departmentId;
     }
 
+    public Employee(String name, int departmentId) {
+        this.name = name;
+        this.departmentId = departmentId;
+    }
+
     public int getId() {
         return id;
     }
@@ -43,7 +48,7 @@ public class Employee {
         return "Employee{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", departmentId=" + departmentId +
+                //", departmentId=" + departmentId +
                 '}';
     }
 }

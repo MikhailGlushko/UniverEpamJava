@@ -19,6 +19,6 @@ public class JDBCTest {
     @Test
     public void setConnection() {
         Connection connection = jdbc.getConnection();
-        System.out.println(connection);
+        assertNotNull(connection);
     }
 }
