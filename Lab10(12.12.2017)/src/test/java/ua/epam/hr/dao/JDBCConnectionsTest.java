@@ -7,18 +7,18 @@ import java.sql.Connection;
 
 import static org.junit.Assert.*;
 
-public class JDBCTest {
+public class JDBCConnectionsTest {
 
-    JDBC jdbc;
+    JDBCConnections jdbcConnections;
 
     @Before
     public void getConnection() {
-        jdbc = new JDBC();
+        jdbcConnections = new JDBCConnections();
     }
 
     @Test
     public void setConnection() {
-        Connection connection = jdbc.getConnection();
+        Connection connection = jdbcConnections.getConnection();
         assertNotNull(connection);
     }
 }

@@ -11,9 +11,9 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
-public class EmployeeDaoJDBCTest {
+public class EmployeeDaoJDBCConnectionsTest {
 
-    private JDBC jdbc;
+    private JDBCConnections jdbcConnections;
     private Employee employee;
     private EmployeeDao employeeDaoJDBC;
     private Department department;
@@ -22,14 +22,14 @@ public class EmployeeDaoJDBCTest {
 
     @Before
     public void init(){
-        jdbc = new JDBC();
+        jdbcConnections = new JDBCConnections();
         employee = new Employee();
         employeeDaoJDBC = new EmployeeDaoJDBC();
-        employeeDaoJDBC.setConnection(jdbc.getConnection());
+        employeeDaoJDBC.setConnection(jdbcConnections.getConnection());
 
         department = new Department("Тестовий відділ");
         departmentDaoJDBC = new DepartmentDaoJDBC();
-        departmentDaoJDBC.setConnection(jdbc.getConnection());
+        departmentDaoJDBC.setConnection(jdbcConnections.getConnection());
         departmentDaoJDBC.add(department);
         departmentId = department.getId();
     }
@@ -47,7 +47,7 @@ public class EmployeeDaoJDBCTest {
     }
 
     @Test
-    public void addOld() {
+    public void addEmployeeWhenExistOneWithSameName() {
         Employee e1 = new Employee();
         e1.setDepartmentId(departmentId);
         e1.setName("Employee 4");
@@ -56,7 +56,7 @@ public class EmployeeDaoJDBCTest {
     }
 
     @Test
-    public void addNew() {
+    public void addNewEmployee() {
         Employee e1 = new Employee();
         e1.setDepartmentId(departmentId);
         e1.setName("Employee 00");
@@ -64,7 +64,7 @@ public class EmployeeDaoJDBCTest {
     }
 
     @Test
-    public void saveWrongdepartmentId() {
+    public void saveEmployeeWithWrongDepartmentId() {
         Employee e1 = new Employee();
         e1.setDepartmentId(1);
         e1.setName("Employee 00");
@@ -72,13 +72,13 @@ public class EmployeeDaoJDBCTest {
     }
 
     @Test
-    public void deleteNoExist() {
+    public void deleteNoExistEmployee() {
         Employee employee = employeeDaoJDBC.delete(4);
         assertNull(employee);
     }
 
     @Test
-    public void deleteExist() {
+    public void deleteExistEmployee() {
         Employee e1 = new Employee();
         e1.setDepartmentId(departmentId);
         e1.setName("Employee 0");
@@ -89,7 +89,7 @@ public class EmployeeDaoJDBCTest {
 
 
     @Test
-    public void getByIdExist() {
+    public void getExistEmployeeById() {
         Employee e1 = new Employee();
         e1.setDepartmentId(departmentId);
         e1.setName("Employee 0");
@@ -100,13 +100,13 @@ public class EmployeeDaoJDBCTest {
     }
 
     @Test
-    public void getByIdNoExist() {
+    public void getNoExistEmployeeById() {
         Employee employee = employeeDaoJDBC.getById(1);
         assertNull(employee);
     }
 
     @Test
-    public void getByNameExist() {
+    public void getExistEmployeeByName() {
         Employee e1 = new Employee();
         e1.setDepartmentId(departmentId);
         e1.setName("Employee 2");
@@ -117,27 +117,27 @@ public class EmployeeDaoJDBCTest {
     }
 
     @Test
-    public void getByNameNoExist() {
+    public void getNoExistEmployeeByName() {
         Employee employee = employeeDaoJDBC.getByName("Employee 1");
         assertNull(employee);
     }
 
 
     @Test
-    public void getList() {
+    public void getEmployeeList() {
         List<Employee> list = employeeDaoJDBC.getList();
        assertNotNull(list);
     }
 
     @Test
-    public void deleteAll(){
+    public void deleteAllEmployee(){
         employeeDaoJDBC.deleteAll();
         List<Employee> listAfter = employeeDaoJDBC.getList();
         assertEquals(0,listAfter.size());
     }
 
     @Test
-    public void saveExist(){
+    public void saveExistEmployee(){
         Employee e1 = new Employee();
         e1.setDepartmentId(departmentId);
         e1.setName("Employee 4");
@@ -149,7 +149,7 @@ public class EmployeeDaoJDBCTest {
     }
 
     @Test
-    public void saveNew(){
+    public void saveNoExistEmployee(){
         Employee e1 = new Employee();
         e1.setDepartmentId(departmentId);
         e1.setName("Employee 4");
@@ -162,7 +162,7 @@ public class EmployeeDaoJDBCTest {
     }
 
     @Test
-    public void saveWrong(){
+    public void saveEmployeeWithWrongDepartmentID(){
         Employee e1 = new Employee();
         e1.setDepartmentId(departmentId);
         e1.setName("Employee 4");

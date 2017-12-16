@@ -100,7 +100,7 @@ public class DepartmentDaoJDBC implements DepartmentDao {
     }
 
     @Override
-    public Department getByname(String name) {
+    public Department getByName(String name) {
         Department department = null;
         try {
             String sql = "select id, name from department where name=?";

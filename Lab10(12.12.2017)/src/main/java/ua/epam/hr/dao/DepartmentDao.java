@@ -11,7 +11,7 @@ public interface DepartmentDao {
     Department delete(int id);
     void deleteAll();
     Department getById(int id);
-    Department getByname(String name);
+    Department getByName(String name);
     List<Department> getList();
     void setConnection(Connection connection);
     Connection getConnection();

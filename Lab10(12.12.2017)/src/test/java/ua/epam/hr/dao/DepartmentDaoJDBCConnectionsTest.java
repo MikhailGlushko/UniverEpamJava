@@ -10,18 +10,18 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
-public class DepartmentDaoJDBCTest {
+public class DepartmentDaoJDBCConnectionsTest {
 
-    JDBC jdbc;
+    JDBCConnections jdbcConnections;
     Department department;
     DepartmentDaoJDBC departmentDaoJDBC;
 
     @Before
     public void init(){
-        jdbc = new JDBC();
+        jdbcConnections = new JDBCConnections();
         department = new Department();
         departmentDaoJDBC = new DepartmentDaoJDBC();
-        departmentDaoJDBC.setConnection(jdbc.getConnection());
+        departmentDaoJDBC.setConnection(jdbcConnections.getConnection());
     }
 
     @After
@@ -37,7 +37,7 @@ public class DepartmentDaoJDBCTest {
     }
 
     @Test
-    public void addOld() {
+    public void addNewDepartmentWhereExistOneWithSameName() {
         Department d1 = new Department();
         d1.setName("Отдел 6");
         departmentDaoJDBC.add(d1);
@@ -45,7 +45,7 @@ public class DepartmentDaoJDBCTest {
     }
 
     @Test
-    public void addNew() {
+    public void addNewDepartment() {
         Department d1 = new Department();
         d1.setName("Отдел "+(int)(Math.random()*10+10));
         departmentDaoJDBC.add(d1);
@@ -53,13 +53,13 @@ public class DepartmentDaoJDBCTest {
     }
 
     @Test
-    public void deleteNoExist() {
+    public void deleteNoExistDepartment() {
         Department delete = departmentDaoJDBC.delete(2);
         assertNull(delete);
     }
 
     @Test
-    public void deleteExist() {
+    public void deleteExistDepartment() {
         Department d1 = new Department();
         d1.setName("Отдел 00");
         departmentDaoJDBC.add(d1);
@@ -69,7 +69,7 @@ public class DepartmentDaoJDBCTest {
 
 
     @Test
-    public void getByIdExist() {
+    public void getExistDepartmentById() {
         Department d1 = new Department();
         d1.setName("Отдел 00");
         departmentDaoJDBC.add(d1);
@@ -78,61 +78,61 @@ public class DepartmentDaoJDBCTest {
     }
 
     @Test
-    public void getByIdNoExist() {
+    public void getNoExistDepartmentById() {
         Department department = departmentDaoJDBC.getById(1);
         assertNull(department);
     }
 
 
     @Test
-    public void getBynameExist() {
+    public void getExistDepartmentByName() {
         Department d1 = new Department();
         d1.setName("Отдел 00");
         departmentDaoJDBC.add(d1);
-        Department department = departmentDaoJDBC.getByname("Отдел 00");
+        Department department = departmentDaoJDBC.getByName("Отдел 00");
         assertNotNull(department);
     }
 
     @Test
-    public void getBynameNoExist() {
-        Department department = departmentDaoJDBC.getByname("Отдел 000");
+    public void getNoExistDepartmentByName() {
+        Department department = departmentDaoJDBC.getByName("Отдел 000");
         assertNull(department);
     }
 
 
     @Test
-    public void getList() {
+    public void getDepartmentList() {
         List<Department> list = departmentDaoJDBC.getList();
         assertNotNull(list);
     }
 
     @Test
-    public void deleteAll(){
+    public void deleteAllDepartment(){
         departmentDaoJDBC.deleteAll();
         List<Department> listBeAfter = departmentDaoJDBC.getList();
         assertEquals(0,listBeAfter.size());
     }
 
     @Test
-    public void saveExist(){
+    public void saveExistDepartment(){
         Department d1 = new Department();
         d1.setName("Отдел 00");
         departmentDaoJDBC.add(d1);
         d1.setName("Отдел 11");
         departmentDaoJDBC.save(d1);
-        Department tmp = departmentDaoJDBC.getByname("Отдел 11");
+        Department tmp = departmentDaoJDBC.getByName("Отдел 11");
         assertNotNull(tmp);
     }
 
     @Test
-    public void saveNew(){
+    public void saveNoExistDepartment(){
         Department d1 = new Department();
         d1.setName("Отдел 00");
         departmentDaoJDBC.add(d1);
         d1.setName("Отдел 11");
         d1.setId(1);
         departmentDaoJDBC.save(d1);
-        Department tmp = departmentDaoJDBC.getByname("Отдел 11");
+        Department tmp = departmentDaoJDBC.getByName("Отдел 11");
         assertNull(tmp);
     }
 }

@@ -2,7 +2,7 @@ package ua.epam.hr;
 
 import ua.epam.hr.dao.DepartmentDaoJDBC;
 import ua.epam.hr.dao.EmployeeDaoJDBC;
-import ua.epam.hr.dao.JDBC;
+import ua.epam.hr.dao.JDBCConnections;
 import ua.epam.hr.entity.Department;
 import ua.epam.hr.entity.Employee;
 
@@ -14,11 +14,11 @@ import java.util.Map;
 public class HRdemo {
 
     public static void main(String[] args) {
-        JDBC jdbc = new JDBC();
+        JDBCConnections jdbcConnections = new JDBCConnections();
         DepartmentDaoJDBC departmentDaoJDBC = new DepartmentDaoJDBC();
-        departmentDaoJDBC.setConnection(jdbc.getConnection());
+        departmentDaoJDBC.setConnection(jdbcConnections.getConnection());
         EmployeeDaoJDBC employeeDaoJDBC = new EmployeeDaoJDBC();
-        employeeDaoJDBC.setConnection(jdbc.getConnection());
+        employeeDaoJDBC.setConnection(jdbcConnections.getConnection());
 
         Department dep;
         Employee emp;
@@ -42,9 +42,9 @@ public class HRdemo {
 
         Map<String,Integer> empllist = new HashMap<String, Integer>(){{
             int depId;
-            depId = departmentDaoJDBC.getByname("Відділ Персоналу").getId();
+            depId = departmentDaoJDBC.getByName("Відділ Персоналу").getId();
             put("Петрова",depId); put("Сидорова",depId);
-            depId = departmentDaoJDBC.getByname("Відділ Заробітної платні").getId();
+            depId = departmentDaoJDBC.getByName("Відділ Заробітної платні").getId();
             put("Іванова",depId);
 
         }};
