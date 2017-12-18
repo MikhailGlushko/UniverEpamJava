@@ -1,10 +1,7 @@
 package ua.epam;
 
 import ua.epam.entity.*;
-import ua.epam.factory.AbstractFigureFactory;
 import ua.epam.factory.FigureFactory;
-
-import java.util.Map;
 
 /**
  * 1. создать последовательность из фигур  используя фабрики цветных и нецветных фигур

@@ -1,7 +1,6 @@
 package ua.epam;
 
 import ua.epam.entity.*;
-import ua.epam.factory.AbstractFigureFactory;
 import ua.epam.factory.FigureFactory;
 
 import java.util.Map;
