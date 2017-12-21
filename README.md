@@ -1,4 +1,4 @@
-# EpamJava17Aut4
+# UniverExternalJava17Aut4
 2017, Осінь, Київ, EPAM, Зовнішні курси, Java, Група 4
 
 Аудиторна та домашня робота по курсу
